@@ -26,23 +26,72 @@ function chooseState(){
  state=mode==='cloud'?cloudState:localState;
  controls();render();
 }
-function updateMetricsV44(){
- const nodes={livros:['booksPercent','booksFraction','booksBar'],revistas:['magazinesPercent','magazinesFraction','magazinesBar'],vhs:['vhsPercent','vhsFraction','vhsBar']};
- let overallTotal=0,overallHave=0;
- for(const [tab,ids] of Object.entries(nodes)){
-  const unique=[...new Map(itemsFor(tab).map(item=>[item.id,item])).values()];
-  const total=unique.length,have=unique.filter(item=>!!state.owned[item.id]).length;
-  overallTotal+=total;overallHave+=have;
-  const pct=total?Math.round(have/total*100):0;
-  $(ids[0]).textContent=total?pct+'%':'Pendente';
-  $(ids[1]).textContent=total?have+' de '+total+' encontrados':'Catálogo ainda não preenchido';
-  $(ids[2]).style.width=pct+'%';
+// A classificação usa campos reais do catálogo; não deduz "mod" a partir de nomes provisórios.
+// Registros personalizados ou de origem não confirmada são exibidos como "a classificar".
+function originOf(item, tab){
+ if(item.personalizado)return 'pending';
+ if(tab==='livros'){
+  if(item.origem_catalogo==='mod')return 'mods';
+  if(typeof item.id==='string' && item.id.startsWith('Base.'))return 'vanilla';
+  return 'pending';
  }
- const pct=overallTotal?Math.round(overallHave/overallTotal*100):0;
- $('overallPercent').textContent=pct+'%';$('overallFraction').textContent=overallHave+' de '+overallTotal+' itens encontrados';
- $('overallBar').style.width=pct+'%';
- document.querySelector('.dashboard-main .dashboard-track')?.setAttribute('aria-valuenow',String(pct));
+ if(tab==='revistas'){
+  if(typeof item.id_jogo==='string' && item.id_jogo.startsWith('Base.'))return 'vanilla';
+  if(typeof item.id==='string' && item.id.startsWith('mod-'))return 'mods';
+  return 'pending';
+ }
+ if(tab==='vhs'){
+  if(item.origem_catalogo==='vanilla')return 'vanilla';
+  if(item.origem_catalogo==='mod')return 'mods';
+  return 'pending';
+ }
+ return 'pending';
 }
+function newCounts(){return {total:0,have:0,vanilla:{total:0,have:0},mods:{total:0,have:0},pending:0}}
+function percent(have,total){return total?Math.round(100*have/total):0}
+function countCategory(tab){
+ const counts=newCounts();
+ const unique=new Map(itemsFor(tab).map(item=>[item.id,item]));
+ for(const item of unique.values()){
+  const owned=!!state.owned[item.id],origin=originOf(item,tab);
+  counts.total++;if(owned)counts.have++;
+  if(origin==='pending'){counts.pending++;continue}
+  counts[origin].total++;if(owned)counts[origin].have++;
+ }
+ return counts;
+}
+function fillProgress(prefix,counts){
+ const pct=percent(counts.have,counts.total);
+ $(prefix+'Percent').textContent=pct+'%';
+ $(prefix+'Fraction').textContent=counts.have+' de '+counts.total+' itens encontrados';
+ const bar=$(prefix+'Bar');bar.style.width=pct+'%';
+ bar.parentElement?.setAttribute('aria-valuenow',String(pct));
+ for(const type of ['Vanilla','Mods']){
+  const c=counts[type.toLowerCase()],p=percent(c.have,c.total);
+  $(prefix+type+'Text').textContent=c.total?`${p}% · ${c.have}/${c.total}`:'— · 0/0';
+  const subBar=$(prefix+type+'Bar');subBar.style.width=p+'%';
+  subBar.parentElement?.setAttribute('aria-valuenow',String(p));
+  subBar.parentElement?.setAttribute('aria-label',`${type}: ${c.have} de ${c.total} encontrados`);
+ }
+ const pending=$(prefix+'Pending');
+ pending.hidden=!counts.pending;
+ pending.textContent=counts.pending+' item(ns) ainda sem classificação de origem';
+}
+function updateMetricsV44(){
+ const keys={livros:'books',revistas:'magazines',vhs:'vhs'};
+ const overall=newCounts();
+ for(const [tab,prefix] of Object.entries(keys)){
+  const counts=countCategory(tab);
+  fillProgress(prefix,counts);
+  overall.total+=counts.total;overall.have+=counts.have;overall.pending+=counts.pending;
+  for(const origin of ['vanilla','mods']){
+   overall[origin].total+=counts[origin].total;
+   overall[origin].have+=counts[origin].have;
+  }
+ }
+ fillProgress('overall',overall);
+}
+
 async function action(task){
  if(busy)return;busy=true;controls();
  try{await task()}catch(e){status('⚠ '+(e.message||String(e)));setStatus('⚠ A alteração não foi confirmada na nuvem')}finally{busy=false;controls()}

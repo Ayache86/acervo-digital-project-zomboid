@@ -3,6 +3,39 @@ import {matches} from './filtros.js';
 export function el(tag,cls,text){const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node}
 export function markButton(item,owned,onToggle){const b=el('button','mark',owned?'✓':'+');b.type='button';b.setAttribute('aria-pressed',String(!!owned));b.title=(owned?'Remover marcação: ':'Marcar encontrado: ')+(item.nome_en||item.nome||item.id);b.setAttribute('aria-label',b.title);b.addEventListener('click',()=>onToggle(item.id));return b}
 function sub(parent,text){if(text)parent.append(el('span','skill-sub',text))}
+// Origem e nome do mod: sempre derivados dos metadados do catálogo, nunca de HTML injetado.
+const modDisplayNames=Object.freeze({LifestyleHobbies:'Lifestyle: Hobbies',Lifestyle:'Lifestyle: Hobbies',damnlib:'DamnLib'});
+// Colecao KI5 verificada na Oficina Steam; apenas itens de revistas de veiculos.
+// Os IDs tecnicos dos mods permanecem intactos para preservar marcacoes e filtros.
+const KI5_STEAM_COLLECTION = 'https://steamcommunity.com/sharedfiles/filedetails/?id=2490220997';
+const LIFESTYLE_STEAM_PAGE = 'https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858';
+function isKi5VehicleMagazine(item){
+ return item?.tipo==='revistas' && item?.origem_catalogo==='mod' && item?.categoria_mod==='veiculos';
+}
+function itemModLabel(item){
+ if(item?.origem_catalogo!=='mod')return null;
+ if(isKi5VehicleMagazine(item))return "KI5's Vehicles Collection";
+ const raw=(item.mod_nome||item.mod||item.origem_mod||'').trim();
+ return modDisplayNames[raw]||raw||'Mod não identificado';
+}
+function modBadge(item){
+ const label=itemModLabel(item);
+ if(!label)return null;
+ const isKi5=isKi5VehicleMagazine(item);
+ const isLifestyle=label==='Lifestyle: Hobbies';
+ const href=isKi5?KI5_STEAM_COLLECTION:isLifestyle?LIFESTYLE_STEAM_PAGE:null;
+ if(href){
+   const badge=el('a','mod-origin-badge mod-origin-link','MOD · '+label+' ↗');
+   badge.href=href;
+   badge.target='_blank';
+   badge.rel='noopener noreferrer';
+   badge.title='Abrir '+label+' na Oficina Steam';
+   badge.setAttribute('aria-label','MOD: '+label+' — abrir a Oficina Steam em nova guia');
+   return badge;
+ }
+ return el('span','mod-origin-badge','MOD · '+label);
+}
+
 function iconPath(item){
   if(!item)return null;
   // Arquivos locais dos itens, identificados pelo ID do jogo.
@@ -120,7 +153,7 @@ function wikiLinkV47(item){
   return link;
 }
 
-export function renderBooks(container,books,state,term,filter,onToggle){const matching=books.filter(x=>matches(x,term,filter,state.owned));if(!matching.length){container.replaceChildren(el('div','empty','Nenhum livro corresponde ao filtro.'));return}const wrap=el('div','table-scroller');const table=el('table','books-table');const thead=el('thead');const tr=el('tr');tr.append(el('th','', 'Habilidade / nome no catálogo'));for(let n=1;n<=5;n++)tr.append(el('th','volume-head',`Vol. ${n}`));thead.append(tr);table.append(thead);const tbody=el('tbody');const bySkill=groupBooks(books);for(const [name,items] of bySkill){const visible=matching.filter(x=>skillKey(x)===name);if(!visible.length)continue;const row=el('tr');const cell=el('td');const skillWrap=el('span','skill-heading');skillWrap.append(skillBookIcon(items[0]),el('span','skill-name',name));cell.append(skillWrap);const example=items[0];sub(cell,`EN: ${example.habilidade_en||'Não informado'}`);sub(cell,`Vanilla PT-BR: ${example.nome_ptbr_vanilla||'Tradução pendente'}`);row.append(cell);for(let n=1;n<=5;n++){const c=el('td','volume-cell');const book=visible.find(x=>Number(x.volume)===n);if(book){const b=markButton(book,state.owned[book.id],onToggle);b.classList.add('mark-with-icon');b.prepend(itemIcon(book,true,false));b.title+=` | ${book.nome_en||''} | PT-BR: ${book.nome_ptbr_vanilla||'A confirmar'}`;c.append(b);const wiki=wikiLinkV47(book);if(wiki)c.append(wiki)}row.append(c)}tbody.append(row)}table.append(tbody);wrap.append(table);container.replaceChildren(wrap,el('div','help','Clique em + para marcar um volume encontrado; ✓ indica que ele já está no depósito. Passe o mouse sobre cada volume para ver seu título individual.'))}
+export function renderBooks(container,books,state,term,filter,onToggle){const matching=books.filter(x=>matches(x,term,filter,state.owned));if(!matching.length){container.replaceChildren(el('div','empty','Nenhum livro corresponde ao filtro.'));return}const wrap=el('div','table-scroller');const table=el('table','books-table');const thead=el('thead');const tr=el('tr');tr.append(el('th','', 'Habilidade / nome no catálogo'));for(let n=1;n<=5;n++)tr.append(el('th','volume-head',`Vol. ${n}`));thead.append(tr);table.append(thead);const tbody=el('tbody');const bySkill=groupBooks(books);for(const [name,items] of bySkill){const visible=matching.filter(x=>skillKey(x)===name);if(!visible.length)continue;const row=el('tr');const cell=el('td');const skillWrap=el('span','skill-heading');skillWrap.append(skillBookIcon(items[0]),el('span','skill-name',name));const bookBadge=modBadge(items[0]);if(bookBadge)skillWrap.append(bookBadge);cell.append(skillWrap);const example=items[0];sub(cell,`EN: ${example.habilidade_en||'Não informado'}`);if(example.origem_catalogo==='mod')sub(cell,'Itens do mod · IDs dos volumes ainda em confirmação');else sub(cell,`Vanilla PT-BR: ${example.nome_ptbr_vanilla||'Tradução pendente'}`);row.append(cell);for(let n=1;n<=5;n++){const c=el('td','volume-cell');const book=visible.find(x=>Number(x.volume)===n);if(book){const b=markButton(book,state.owned[book.id],onToggle);b.classList.add('mark-with-icon');b.prepend(itemIcon(book,true,false));b.title+=` | ${book.nome_en||''} | PT-BR: ${book.nome_ptbr_vanilla||'A confirmar'}`;c.append(b);const wiki=wikiLinkV47(book);if(wiki)c.append(wiki)}row.append(c)}tbody.append(row)}table.append(tbody);wrap.append(table);container.replaceChildren(wrap,el('div','help','Clique em + para marcar um volume encontrado; ✓ indica que ele já está no depósito. Passe o mouse sobre cada volume para ver seu título individual.'))}
 // Paginacao apenas para revistas: nao afeta livros e VHS.
 let revistaPagina = 1;
 let revistaGrupo = 'todos';
@@ -136,7 +169,7 @@ export function renderItems(container,items,state,term,filter,onToggle,onDelete)
   if(isMagazines) revistaPagina=Math.min(Math.max(1,revistaPagina),pages);
   const shown=isMagazines?filtered.slice((revistaPagina-1)*REVISTAS_POR_PAGINA,revistaPagina*REVISTAS_POR_PAGINA):filtered;
   const wrap=el('div','table-scroller');const table=el('table','items-table');const header=el('tr');for(const name of ['Item / traduções','Encontrado','Ações'])header.append(el('th','',name));const head=el('thead');head.append(header);table.append(head);const tbody=el('tbody');
-  for(const item of shown){const row=el('tr');const info=el('td');const titleWrap=el('div','item-heading');titleWrap.append(itemIcon(item),el('div','item-title',item.nome_catalogo||item.nome||item.nome_en||item.id));info.append(titleWrap);info.append(el('div','item-sub',`EN: ${item.nome_en||'A confirmar'}`));info.append(el('div','item-sub',`Vanilla PT-BR: ${item.nome_ptbr_vanilla||'A confirmar'}`));const wiki=wikiLinkV47(item);if(wiki)info.append(wiki);row.append(info);const owned=el('td');owned.append(markButton(item,state.owned[item.id],onToggle));row.append(owned);const actions=el('td');if(item.personalizado){const b=el('button','delete','Excluir');b.type='button';b.addEventListener('click',()=>onDelete(item.id));actions.append(b)}else actions.append(el('span','item-detail',item.origem_catalogo==='mod'?'Mod instalado':'Catálogo base'));row.append(actions);tbody.append(row)}
+  for(const item of shown){const row=el('tr');const info=el('td');const titleWrap=el('div','item-heading');titleWrap.append(itemIcon(item),el('div','item-title',item.nome_catalogo||item.nome||item.nome_en||item.id));const rowBadge=modBadge(item);if(rowBadge)titleWrap.append(rowBadge);info.append(titleWrap);info.append(el('div','item-sub',`EN: ${item.nome_en||'A confirmar'}`));info.append(el('div','item-sub',`${item.origem_catalogo==='mod'?'PT-BR':'Vanilla PT-BR'}: ${item.nome_ptbr_vanilla||item.nome_ptbr_referencia||'A confirmar'}`));const wiki=wikiLinkV47(item);if(wiki)info.append(wiki);row.append(info);const owned=el('td');owned.append(markButton(item,state.owned[item.id],onToggle));row.append(owned);const actions=el('td');if(item.personalizado){const b=el('button','delete','Excluir');b.type='button';b.addEventListener('click',()=>onDelete(item.id));actions.append(b)}else actions.append(el('span','item-detail',item.origem_catalogo==='mod'?'Mod: '+itemModLabel(item):'Catálogo base'));row.append(actions);tbody.append(row)}
   table.append(tbody);wrap.append(table);
   if(!isMagazines){container.replaceChildren(wrap);return}
   const navigation=el('nav','magazine-pagination');navigation.setAttribute('aria-label','Paginação das revistas');
@@ -223,6 +256,7 @@ function renderVhsItemsV45(container,items,state,term,filter,onToggle,onDelete){
     const info=el('div','vhs-card-info-v47');
     const heading=el('div','item-heading');
     heading.append(itemIcon(item),el('div','item-title',item.nome_catalogo||item.nome||item.nome_en||item.id));
+    const vhsBadge=modBadge(item);if(vhsBadge)heading.append(vhsBadge);
     info.append(heading);
     info.append(el('div','item-sub','EN: '+(item.nome_en||'Não informado')));
     if(item.nome_ptbr_vanilla && item.nome_ptbr_vanilla!==item.nome_en)info.append(el('div','item-sub','PT-BR: '+item.nome_ptbr_vanilla));
@@ -232,7 +266,7 @@ function renderVhsItemsV45(container,items,state,term,filter,onToggle,onDelete){
     const actions=el('div','vhs-card-actions-v47');
     actions.append(markButton(item,state.owned[item.id],onToggle));
     if(item.personalizado){const del=el('button','delete','Excluir');del.type='button';del.addEventListener('click',()=>onDelete(item.id));actions.append(del)}
-    else actions.append(el('span','item-detail',item.origem_catalogo==='mod'?(item.origem_mod||'Mod'):'Vanilla'));
+    else actions.append(el('span','item-detail',item.origem_catalogo==='mod'?'Mod: '+itemModLabel(item):'Vanilla'));
     card.append(info,actions);grid.append(card);
   }
   container.replaceChildren(origin,groups,effects,nav(),grid,nav());
