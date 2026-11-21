@@ -1,6 +1,6 @@
-// Catalogo e ordenacao visual do Refugio — V3.6
+// Catálogo e ordenação visual independente — V3.6
 export async function fetchCatalog(){const [livros,revistas,vhs]=await Promise.all(['livros','revistas','vhs'].map(async tipo=>{const response=await fetch(`data/${tipo}.json`,{cache:'no-cache'});if(!response.ok)throw Error(`Falha ao carregar data/${tipo}.json`);const records=await response.json();if(!Array.isArray(records))throw Error(`O arquivo ${tipo}.json precisa ser uma lista JSON.`);return records}));return{livros,revistas,vhs}}
-export function skillKey(item){return item.nome_refugio||item.habilidade_en||'Não identificado no Refúgio'}
+export function skillKey(item){return item.nome_catalogo||item.habilidade_en||'Não identificado no catálogo'}
 // Ordem de 28 grupos aprovada para a interface; nao reordena nem altera o JSON.
 const ORDER=[
  'Abate','Agricultura','Alvenaria','Armadilhas','Art','Carpintaria','Cerâmica',

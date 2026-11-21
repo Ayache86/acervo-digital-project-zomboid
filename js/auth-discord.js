@@ -1,4 +1,4 @@
-// V5.0: autenticacao isolada. Nao altera as marcacoes locais (refugio-acervo-v3).
+// Autenticação independente. Mantém a compatibilidade com marcações locais antigas.
 import { SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY } from './auth-config.js';
 import {getSupabase} from './cloud-client.js';
 
@@ -19,6 +19,7 @@ if (oauthError) {
 }
 
 function render(user) {
+  message.hidden = Boolean(user);
   if (!user) {
     name.textContent = '';
     avatar.hidden = true;
@@ -73,7 +74,9 @@ if (!configured) {
     render(currentUser);
     notify();
     button.disabled = false;
-    if (!oauthError) message.textContent = 'As marcacoes continuam locais nesta etapa. A sincronizacao sera configurada depois.';
+      if (!oauthError && !currentUser) {
+        message.textContent = 'Entre com Discord para salvar sua coleção na nuvem e sincronizar suas marcações entre dispositivos.';
+      }
     button.addEventListener('click', async () => {
       button.disabled = true;
       try {
@@ -86,7 +89,7 @@ if (!configured) {
           message.textContent = 'Sessao encerrada. Seus itens locais foram preservados.';
         } else {
           // Ao retornar, a biblioteca Supabase detecta automaticamente a sessao OAuth.
-          const redirectTo = new URL('index.html', window.location.href).href;
+          const redirectTo = new URL('./', window.location.href).href;
           const { error: signInError } = await supabase.auth.signInWithOAuth({
             provider: 'discord', options: { redirectTo }
           });

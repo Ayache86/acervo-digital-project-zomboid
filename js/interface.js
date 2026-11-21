@@ -73,7 +73,7 @@ function tintGenericBook(image, color) {
     image.src=canvas.toDataURL('image/png');
   } catch(err){ console.warn('Nao foi possivel colorir o icone:',err); }
 }
-// Icones provisorios para quatro grupos exclusivos do Refugio.
+// Icones provisorios para quatro habilidades de livros com ícones provisórios.
 // Reutilizam a textura vanilla genérica com tonalidade aproximada;
 // nao representam uma correspondencia oficial de mod.
 const customBookColors = Object.freeze({
@@ -84,7 +84,7 @@ const customBookColors = Object.freeze({
 });
 function skillBookIcon(item){
   const skill=item?.habilidade_en;
-  const customName=item?.nome_refugio;
+  const customName=item?.nome_catalogo;
   const hasCustomColor=Object.prototype.hasOwnProperty.call(customBookColors,customName);
   const file=skillTextures[skill] || (hasCustomColor ? 'Item_Book_Generic.png' : null);
   if(!file)return el('span','skill-icon-absent');
@@ -100,7 +100,7 @@ function skillBookIcon(item){
 }
 
 
-// REFUGIO V4.7 - VHS 2 colunas e links wiki
+// catálogo V4.7 - VHS 2 colunas e links wiki
 // Uma pagina especifica so e aberta quando o catalogo traz wiki_url validada.
 // Caso contrario, a busca na wiki e identificada como busca (nao pagina confirmada).
 function wikiLinkV47(item){
@@ -120,7 +120,7 @@ function wikiLinkV47(item){
   return link;
 }
 
-export function renderBooks(container,books,state,term,filter,onToggle){const matching=books.filter(x=>matches(x,term,filter,state.owned));if(!matching.length){container.replaceChildren(el('div','empty','Nenhum livro corresponde ao filtro.'));return}const wrap=el('div','table-scroller');const table=el('table','books-table');const thead=el('thead');const tr=el('tr');tr.append(el('th','', 'Habilidade / nome no Refúgio'));for(let n=1;n<=5;n++)tr.append(el('th','volume-head',`Vol. ${n}`));thead.append(tr);table.append(thead);const tbody=el('tbody');const bySkill=groupBooks(books);for(const [name,items] of bySkill){const visible=matching.filter(x=>skillKey(x)===name);if(!visible.length)continue;const row=el('tr');const cell=el('td');const skillWrap=el('span','skill-heading');skillWrap.append(skillBookIcon(items[0]),el('span','skill-name',name));cell.append(skillWrap);const example=items[0];sub(cell,`EN: ${example.habilidade_en||'Não informado'}`);sub(cell,`Vanilla PT-BR: ${example.nome_ptbr_vanilla||'Tradução pendente'}`);row.append(cell);for(let n=1;n<=5;n++){const c=el('td','volume-cell');const book=visible.find(x=>Number(x.volume)===n);if(book){const b=markButton(book,state.owned[book.id],onToggle);b.classList.add('mark-with-icon');b.prepend(itemIcon(book,true,false));b.title+=` | ${book.nome_en||''} | PT-BR: ${book.nome_ptbr_vanilla||'A confirmar'}`;c.append(b);const wiki=wikiLinkV47(book);if(wiki)c.append(wiki)}row.append(c)}tbody.append(row)}table.append(tbody);wrap.append(table);container.replaceChildren(wrap,el('div','help','Clique em + para marcar um volume encontrado; ✓ indica que ele já está no depósito. Passe o mouse sobre cada volume para ver seu título individual.'))}
+export function renderBooks(container,books,state,term,filter,onToggle){const matching=books.filter(x=>matches(x,term,filter,state.owned));if(!matching.length){container.replaceChildren(el('div','empty','Nenhum livro corresponde ao filtro.'));return}const wrap=el('div','table-scroller');const table=el('table','books-table');const thead=el('thead');const tr=el('tr');tr.append(el('th','', 'Habilidade / nome no catálogo'));for(let n=1;n<=5;n++)tr.append(el('th','volume-head',`Vol. ${n}`));thead.append(tr);table.append(thead);const tbody=el('tbody');const bySkill=groupBooks(books);for(const [name,items] of bySkill){const visible=matching.filter(x=>skillKey(x)===name);if(!visible.length)continue;const row=el('tr');const cell=el('td');const skillWrap=el('span','skill-heading');skillWrap.append(skillBookIcon(items[0]),el('span','skill-name',name));cell.append(skillWrap);const example=items[0];sub(cell,`EN: ${example.habilidade_en||'Não informado'}`);sub(cell,`Vanilla PT-BR: ${example.nome_ptbr_vanilla||'Tradução pendente'}`);row.append(cell);for(let n=1;n<=5;n++){const c=el('td','volume-cell');const book=visible.find(x=>Number(x.volume)===n);if(book){const b=markButton(book,state.owned[book.id],onToggle);b.classList.add('mark-with-icon');b.prepend(itemIcon(book,true,false));b.title+=` | ${book.nome_en||''} | PT-BR: ${book.nome_ptbr_vanilla||'A confirmar'}`;c.append(b);const wiki=wikiLinkV47(book);if(wiki)c.append(wiki)}row.append(c)}tbody.append(row)}table.append(tbody);wrap.append(table);container.replaceChildren(wrap,el('div','help','Clique em + para marcar um volume encontrado; ✓ indica que ele já está no depósito. Passe o mouse sobre cada volume para ver seu título individual.'))}
 // Paginacao apenas para revistas: nao afeta livros e VHS.
 let revistaPagina = 1;
 let revistaGrupo = 'todos';
@@ -136,7 +136,7 @@ export function renderItems(container,items,state,term,filter,onToggle,onDelete)
   if(isMagazines) revistaPagina=Math.min(Math.max(1,revistaPagina),pages);
   const shown=isMagazines?filtered.slice((revistaPagina-1)*REVISTAS_POR_PAGINA,revistaPagina*REVISTAS_POR_PAGINA):filtered;
   const wrap=el('div','table-scroller');const table=el('table','items-table');const header=el('tr');for(const name of ['Item / traduções','Encontrado','Ações'])header.append(el('th','',name));const head=el('thead');head.append(header);table.append(head);const tbody=el('tbody');
-  for(const item of shown){const row=el('tr');const info=el('td');const titleWrap=el('div','item-heading');titleWrap.append(itemIcon(item),el('div','item-title',item.nome_refugio||item.nome||item.nome_en||item.id));info.append(titleWrap);info.append(el('div','item-sub',`EN: ${item.nome_en||'A confirmar'}`));info.append(el('div','item-sub',`Vanilla PT-BR: ${item.nome_ptbr_vanilla||'A confirmar'}`));const wiki=wikiLinkV47(item);if(wiki)info.append(wiki);row.append(info);const owned=el('td');owned.append(markButton(item,state.owned[item.id],onToggle));row.append(owned);const actions=el('td');if(item.personalizado){const b=el('button','delete','Excluir');b.type='button';b.addEventListener('click',()=>onDelete(item.id));actions.append(b)}else actions.append(el('span','item-detail',item.origem_catalogo==='mod'?'Mod instalado':'Catálogo base'));row.append(actions);tbody.append(row)}
+  for(const item of shown){const row=el('tr');const info=el('td');const titleWrap=el('div','item-heading');titleWrap.append(itemIcon(item),el('div','item-title',item.nome_catalogo||item.nome||item.nome_en||item.id));info.append(titleWrap);info.append(el('div','item-sub',`EN: ${item.nome_en||'A confirmar'}`));info.append(el('div','item-sub',`Vanilla PT-BR: ${item.nome_ptbr_vanilla||'A confirmar'}`));const wiki=wikiLinkV47(item);if(wiki)info.append(wiki);row.append(info);const owned=el('td');owned.append(markButton(item,state.owned[item.id],onToggle));row.append(owned);const actions=el('td');if(item.personalizado){const b=el('button','delete','Excluir');b.type='button';b.addEventListener('click',()=>onDelete(item.id));actions.append(b)}else actions.append(el('span','item-detail',item.origem_catalogo==='mod'?'Mod instalado':'Catálogo base'));row.append(actions);tbody.append(row)}
   table.append(tbody);wrap.append(table);
   if(!isMagazines){container.replaceChildren(wrap);return}
   const navigation=el('nav','magazine-pagination');navigation.setAttribute('aria-label','Paginação das revistas');
@@ -167,12 +167,12 @@ export function renderItems(container,items,state,term,filter,onToggle,onDelete)
 }
 
 
-// REFUGIO V4.5 - VHS vanilla: separação por origem, filtros e paginação.
+// catálogo V4.5 - VHS vanilla: separação por origem, filtros e paginação.
 let vhsPaginaV45=1;
 let vhsGrupoV45='todas';
 let vhsEfeitoV45='todos';
 let vhsOrigemV46='vanilla';
-// REFUGIO V4.6 - VHS mods e nomes
+// catálogo V4.6 - VHS mods e nomes
 
 function renderVhsItemsV45(container,items,state,term,filter,onToggle,onDelete){
   const all=items.filter(x=>matches(x,term,filter,state.owned));
@@ -222,7 +222,7 @@ function renderVhsItemsV45(container,items,state,term,filter,onToggle,onDelete){
     const card=el('article','vhs-card-v47');
     const info=el('div','vhs-card-info-v47');
     const heading=el('div','item-heading');
-    heading.append(itemIcon(item),el('div','item-title',item.nome_refugio||item.nome||item.nome_en||item.id));
+    heading.append(itemIcon(item),el('div','item-title',item.nome_catalogo||item.nome||item.nome_en||item.id));
     info.append(heading);
     info.append(el('div','item-sub','EN: '+(item.nome_en||'Não informado')));
     if(item.nome_ptbr_vanilla && item.nome_ptbr_vanilla!==item.nome_en)info.append(el('div','item-sub','PT-BR: '+item.nome_ptbr_vanilla));
@@ -238,4 +238,4 @@ function renderVhsItemsV45(container,items,state,term,filter,onToggle,onDelete){
   container.replaceChildren(origin,groups,effects,nav(),grid,nav());
 }
 
-// FIM REFUGIO V4.5 VHS
+// FIM catálogo V4.5 VHS

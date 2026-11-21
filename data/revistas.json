@@ -2,7 +2,6 @@
   {
     "id": "revista-alpine-explorers",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Exploradores alpinos",
     "nome_en": "Alpine Explorers",
     "nome_ptbr_referencia": "Exploradores alpinos",
@@ -10,12 +9,12 @@
     "id_jogo": "Base.TailoringMag9",
     "icone_local": "assets/icons/revistas/Item_Magazine_Alpine1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-american-bladecraft",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Artes de lâminas americanas",
     "nome_en": "American Bladecraft",
     "nome_ptbr_referencia": "Artes de lâminas americanas",
@@ -23,12 +22,12 @@
     "id_jogo": "Base.SmithingMag8",
     "icone_local": "assets/icons/revistas/Item_Magazine_Bladecraft1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-american-homesteading",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Vida autossuficiente americana",
     "nome_en": "American Homesteading",
     "nome_ptbr_referencia": "Vida autossuficiente americana",
@@ -36,12 +35,12 @@
     "id_jogo": "Base.FarmingMag5",
     "icone_local": "assets/icons/revistas/Item_MagazineFarming5.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-ancient-tailoring",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Costura antiga",
     "nome_en": "Ancient Tailoring",
     "nome_ptbr_referencia": "Costura antiga",
@@ -49,12 +48,12 @@
     "id_jogo": "Base.TailoringMag1",
     "icone_local": "assets/icons/revistas/Item_Magazine_NeolithicClothes.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-angler-usa-june-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Pescador dos EUA — junho de 1993",
     "nome_en": "Angler USA - June 1993",
     "nome_ptbr_referencia": "Pescador dos EUA — junho de 1993",
@@ -62,12 +61,12 @@
     "id_jogo": "Base.FishingMag1",
     "icone_local": "assets/icons/revistas/Item_MagazineFish.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-angler-usa-may-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Pescador dos EUA — maio de 1993",
     "nome_en": "Angler USA - May 1993",
     "nome_ptbr_referencia": "Pescador dos EUA — maio de 1993",
@@ -75,12 +74,12 @@
     "id_jogo": "Base.FishingMag2",
     "icone_local": "assets/icons/revistas/Item_MagazineFish2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-armor-in-the-iron-age",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Armaduras na Idade do Ferro",
     "nome_en": "Armor in the Iron Age",
     "nome_ptbr_referencia": "Armaduras na Idade do Ferro",
@@ -88,12 +87,12 @@
     "id_jogo": "Base.ArmorMag5",
     "icone_local": "assets/icons/revistas/Item_Magazine_EarlyArmour2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-bloody-japanese-wrestling-deathmatch",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Luta livre japonesa sangrenta até a morte!",
     "nome_en": "Bloody Japanese Wrestling Deathmatch!",
     "nome_ptbr_referencia": "Luta livre japonesa sangrenta até a morte!",
@@ -101,12 +100,12 @@
     "id_jogo": "Base.WeaponMag4",
     "icone_local": "assets/icons/revistas/Item_Magazine_Wrestling1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-blooms-and-blossoms",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Flores e florações",
     "nome_en": "Blooms and Blossoms",
     "nome_ptbr_referencia": "Flores e florações",
@@ -114,12 +113,12 @@
     "id_jogo": "Base.FarmingMag3",
     "icone_local": "assets/icons/revistas/Item_Magazine_Gardening1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-blunt-forge",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Forja de armas contundentes",
     "nome_en": "Blunt Forge",
     "nome_ptbr_referencia": "Forja de armas contundentes",
@@ -127,12 +126,12 @@
     "id_jogo": "Base.SmithingMag5",
     "icone_local": "assets/icons/revistas/Item_MagazineBlacksmith4.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-bottle-making-at-home",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Fabricando garrafas em casa",
     "nome_en": "Bottle Making at Home",
     "nome_ptbr_referencia": "Fabricando garrafas em casa",
@@ -140,12 +139,12 @@
     "id_jogo": "Base.GlassmakingMag3",
     "icone_local": "assets/icons/revistas/Item_Magazine_Glass3.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-carlow-crystal-guide",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Guia de cristais Carlow",
     "nome_en": "Carlow Crystal Guide",
     "nome_ptbr_referencia": "Guia de cristais Carlow",
@@ -153,12 +152,12 @@
     "id_jogo": "Base.GlassmakingMag2",
     "icone_local": "assets/icons/revistas/Item_Magazine_Glass2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-cowboy-living",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Vida de caubói",
     "nome_en": "Cowboy Living",
     "nome_ptbr_referencia": "Vida de caubói",
@@ -166,12 +165,12 @@
     "id_jogo": "Base.TailoringMag5",
     "icone_local": "assets/icons/revistas/Item_Magazine_Cowboy1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-cropping-for-cash",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Cultivando para lucrar",
     "nome_en": "Cropping for Cash",
     "nome_ptbr_referencia": "Cultivando para lucrar",
@@ -179,12 +178,12 @@
     "id_jogo": "Base.FarmingMag6",
     "icone_local": "assets/icons/revistas/Item_MagazineFarming1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-cultures-of-prehistory",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Culturas da pré-história",
     "nome_en": "Cultures of Prehistory",
     "nome_ptbr_referencia": "Culturas da pré-história",
@@ -192,12 +191,12 @@
     "id_jogo": "Base.PrimitiveToolMag2",
     "icone_local": "assets/icons/revistas/Item_Magazine_Prehistory1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-delicious-meals-june-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Refeições deliciosas — junho de 1993",
     "nome_en": "Delicious Meals - June 1993",
     "nome_ptbr_referencia": "Refeições deliciosas — junho de 1993",
@@ -205,12 +204,12 @@
     "id_jogo": "Base.CookingMag6",
     "icone_local": "assets/icons/revistas/Item_MagazineFood6.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-early-indigenous-armor-an-in-depth-study",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Armaduras indígenas antigas — estudo aprofundado",
     "nome_en": "Early Indigenous Armor - An In-Depth Study",
     "nome_ptbr_referencia": "Armaduras indígenas antigas — estudo aprofundado",
@@ -218,12 +217,12 @@
     "id_jogo": "Base.ArmorMag2",
     "icone_local": "assets/icons/revistas/Item_Magazine_EarlyArmour.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-european-armor-in-the-late-medieval-era",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Armaduras europeias no fim da Idade Média",
     "nome_en": "European Armor in the Late Medieval Era",
     "nome_ptbr_referencia": "Armaduras europeias no fim da Idade Média",
@@ -231,12 +230,12 @@
     "id_jogo": "Base.ArmorMag4",
     "icone_local": "assets/icons/revistas/Item_Magazine_EarlyArmour3.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-everyday-smithing-april-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Ferraria do dia a dia — abril de 1993",
     "nome_en": "Everyday Smithing - April 1993",
     "nome_ptbr_referencia": "Ferraria do dia a dia — abril de 1993",
@@ -244,12 +243,12 @@
     "id_jogo": "Base.SmithingMag3",
     "icone_local": "assets/icons/revistas/Item_MagazineBlacksmith3.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-everyday-smithing-june-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Ferraria do dia a dia — junho de 1993",
     "nome_en": "Everyday Smithing - June 1993",
     "nome_ptbr_referencia": "Ferraria do dia a dia — junho de 1993",
@@ -257,12 +256,12 @@
     "id_jogo": "Base.SmithingMag1",
     "icone_local": "assets/icons/revistas/Item_MagazineBlacksmith1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-everyday-smithing-may-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Ferraria do dia a dia — maio de 1993",
     "nome_en": "Everyday Smithing - May 1993",
     "nome_ptbr_referencia": "Ferraria do dia a dia — maio de 1993",
@@ -270,12 +269,12 @@
     "id_jogo": "Base.SmithingMag2",
     "icone_local": "assets/icons/revistas/Item_MagazineBlacksmith2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-fbi-incident-report-san-fernando-bank-robbery",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Relatório do FBI: assalto ao Banco San Fernando",
     "nome_en": "FBI Incident Report: San Fernando Bank Robbery",
     "nome_ptbr_referencia": "Relatório do FBI: assalto ao Banco San Fernando",
@@ -283,12 +282,12 @@
     "id_jogo": "Base.ArmorMag7",
     "icone_local": "assets/icons/revistas/Item_PaperReport1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-fun-in-the-woods",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Diversão na floresta!",
     "nome_en": "Fun in the Woods!",
     "nome_ptbr_referencia": "Diversão na floresta!",
@@ -296,12 +295,12 @@
     "id_jogo": "Base.TailoringMag7",
     "icone_local": "assets/icons/revistas/Item_Magazine_Outdoors2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-get-stuffed",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Empanturre-se",
     "nome_en": "Get Stuffed",
     "nome_ptbr_referencia": "Empanturre-se",
@@ -309,12 +308,12 @@
     "id_jogo": "Base.HuntingMag4",
     "icone_local": "assets/icons/revistas/Item_Magazine_Taxidermy1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-good-cooking-june-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Boa culinária — junho de 1993",
     "nome_en": "Good Cooking - June 1993",
     "nome_ptbr_referencia": "Boa culinária — junho de 1993",
@@ -322,12 +321,12 @@
     "id_jogo": "Base.CookingMag1",
     "icone_local": "assets/icons/revistas/Item_MagazineFood.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-good-cooking-may-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Boa culinária — maio de 1993",
     "nome_en": "Good Cooking - May 1993",
     "nome_ptbr_referencia": "Boa culinária — maio de 1993",
@@ -335,12 +334,12 @@
     "id_jogo": "Base.CookingMag2",
     "icone_local": "assets/icons/revistas/Item_MagazineFood2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-grandma-s-kitchen",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Cozinha da vovó",
     "nome_en": "Grandma's Kitchen",
     "nome_ptbr_referencia": "Cozinha da vovó",
@@ -348,12 +347,12 @@
     "id_jogo": "Base.CookingMag4",
     "icone_local": "assets/icons/revistas/Item_MagazineFood4.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-growing-your-own",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Cultivando seus próprios alimentos",
     "nome_en": "Growing Your Own",
     "nome_ptbr_referencia": "Cultivando seus próprios alimentos",
@@ -361,12 +360,12 @@
     "id_jogo": "Base.FarmingMag7",
     "icone_local": "assets/icons/revistas/Item_Magazine_Farming6.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-guerilla-radio-june-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Rádio Guerrilha — junho de 1993",
     "nome_en": "Guerilla Radio - June 1993",
     "nome_ptbr_referencia": "Rádio Guerrilha — junho de 1993",
@@ -374,12 +373,12 @@
     "id_jogo": "Base.RadioMag1",
     "icone_local": "assets/icons/revistas/Item_MagazineElectronics01.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-guerilla-radio-may-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Rádio Guerrilha — maio de 1993",
     "nome_en": "Guerilla Radio - May 1993",
     "nome_ptbr_referencia": "Rádio Guerrilha — maio de 1993",
@@ -387,12 +386,12 @@
     "id_jogo": "Base.RadioMag3",
     "icone_local": "assets/icons/revistas/Item_MagazineMechanics.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-herbal-remedy-growing",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Cultivo de ervas medicinais",
     "nome_en": "Herbal Remedy Growing",
     "nome_ptbr_referencia": "Cultivo de ervas medicinais",
@@ -400,12 +399,12 @@
     "id_jogo": "Base.FarmingMag9",
     "icone_local": "assets/icons/revistas/Item_Magazine_Herbal1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-home-security-monthly",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Segurança residencial mensal",
     "nome_en": "Home Security Monthly",
     "nome_ptbr_referencia": "Segurança residencial mensal",
@@ -413,12 +412,12 @@
     "id_jogo": "Base.ElectronicsMag3",
     "icone_local": "assets/icons/revistas/Item_MagazineElectronics04.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-homespun",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Feito em casa",
     "nome_en": "Homespun",
     "nome_ptbr_referencia": "Feito em casa",
@@ -426,12 +425,12 @@
     "id_jogo": "Base.TailoringMag10",
     "icone_local": "assets/icons/revistas/Item_Magazine_Homestead1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-how-to-use-generators",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Como usar geradores",
     "nome_en": "How to Use Generators",
     "nome_ptbr_referencia": "Como usar geradores",
@@ -439,12 +438,12 @@
     "id_jogo": "Base.ElectronicsMag4",
     "icone_local": "assets/icons/revistas/Item_MagazineElectronics02.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-iron-age-blacksmithing",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Ferraria da Idade do Ferro",
     "nome_en": "Iron Age Blacksmithing",
     "nome_ptbr_referencia": "Ferraria da Idade do Ferro",
@@ -452,12 +451,12 @@
     "id_jogo": "Base.SmithingMag9",
     "icone_local": "assets/icons/revistas/Item_Magazine_Metalworking1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-italian-delights",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Delícias italianas",
     "nome_en": "Italian Delights",
     "nome_ptbr_referencia": "Delícias italianas",
@@ -465,12 +464,12 @@
     "id_jogo": "Base.CookingMag3",
     "icone_local": "assets/icons/revistas/Item_MagazineFood3.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-kentucky-farmer-june-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Agricultor do Kentucky — junho de 1993",
     "nome_en": "Kentucky Farmer - June 1993",
     "nome_ptbr_referencia": "Agricultor do Kentucky — junho de 1993",
@@ -478,12 +477,12 @@
     "id_jogo": "Base.FarmingMag1",
     "icone_local": "assets/icons/revistas/Item_Magazine_Farming7.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-kentucky-farmer-may-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Agricultor do Kentucky — maio de 1993",
     "nome_en": "Kentucky Farmer - May 1993",
     "nome_ptbr_referencia": "Agricultor do Kentucky — maio de 1993",
@@ -491,12 +490,12 @@
     "id_jogo": "Base.FarmingMag2",
     "icone_local": "assets/icons/revistas/Item_Magazine_Farming8.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-laines-commercial-auto-manual",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Manual de veículos comerciais Laines",
     "nome_en": "Laines Commercial Auto Manual",
     "nome_ptbr_referencia": "Manual de veículos comerciais Laines",
@@ -504,12 +503,12 @@
     "id_jogo": "Base.MechanicMag2",
     "icone_local": "assets/icons/revistas/Item_MagazineMechanic2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-laines-performance-auto-manual",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Manual de carros de alto desempenho Laines",
     "nome_en": "Laines Performance Auto Manual",
     "nome_ptbr_referencia": "Manual de carros de alto desempenho Laines",
@@ -517,12 +516,12 @@
     "id_jogo": "Base.MechanicMag3",
     "icone_local": "assets/icons/revistas/Item_MagazineMechanic3.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-laines-standard-auto-manual",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Manual de carros comuns Laines",
     "nome_en": "Laines Standard Auto Manual",
     "nome_ptbr_referencia": "Manual de carros comuns Laines",
@@ -530,12 +529,12 @@
     "id_jogo": "Base.MechanicMag1",
     "icone_local": "assets/icons/revistas/Item_MagazineMechanic1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-leather-crafts",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Artesanato em couro",
     "nome_en": "Leather Crafts",
     "nome_ptbr_referencia": "Artesanato em couro",
@@ -543,12 +542,12 @@
     "id_jogo": "Base.TailoringMag4",
     "icone_local": "assets/icons/revistas/Item_Magazine_Leather1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-legalize-it",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Legalize!",
     "nome_en": "Legalize It!",
     "nome_ptbr_referencia": "Legalize!",
@@ -556,12 +555,12 @@
     "id_jogo": "Base.HempMag1",
     "icone_local": "assets/icons/revistas/Item_Magazine_Hemp1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-like-clockwork",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Como um relógio",
     "nome_en": "Like Clockwork",
     "nome_ptbr_referencia": "Como um relógio",
@@ -569,12 +568,12 @@
     "id_jogo": "Base.ElectronicsMag2",
     "icone_local": "assets/icons/revistas/Item_MagazineElectronics03.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-medieval-armory-june-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Arsenal medieval — junho de 1993",
     "nome_en": "Medieval Armory - June 1993",
     "nome_ptbr_referencia": "Arsenal medieval — junho de 1993",
@@ -582,12 +581,12 @@
     "id_jogo": "Base.SmithingMag7",
     "icone_local": "assets/icons/revistas/Item_Magazine_Armory2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-medieval-armory-may-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Arsenal medieval — maio de 1993",
     "nome_en": "Medieval Armory - May 1993",
     "nome_ptbr_referencia": "Arsenal medieval — maio de 1993",
@@ -595,12 +594,12 @@
     "id_jogo": "Base.SmithingMag11",
     "icone_local": "assets/icons/revistas/Item_Magazine_Armory1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-medieval-blacksmithing",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Ferraria medieval",
     "nome_en": "Medieval Blacksmithing",
     "nome_ptbr_referencia": "Ferraria medieval",
@@ -608,12 +607,12 @@
     "id_jogo": "Base.SmithingMag10",
     "icone_local": "assets/icons/revistas/Item_Magazine_Metalworking2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-medieval-peasant-clothing",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Roupas de camponeses medievais",
     "nome_en": "Medieval Peasant Clothing",
     "nome_ptbr_referencia": "Roupas de camponeses medievais",
@@ -621,12 +620,12 @@
     "id_jogo": "Base.TailoringMag3",
     "icone_local": "assets/icons/revistas/Item_Magazine_MedievalPeasantClothes.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-modern-blacksmithing-at-home",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Ferraria moderna em casa",
     "nome_en": "Modern Blacksmithing at Home",
     "nome_ptbr_referencia": "Ferraria moderna em casa",
@@ -634,12 +633,12 @@
     "id_jogo": "Base.SmithingMag6",
     "icone_local": "assets/icons/revistas/Item_MagazineBlacksmith1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-murano-glass-manual",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Manual do vidro de Murano",
     "nome_en": "Murano Glass Manual",
     "nome_ptbr_referencia": "Manual do vidro de Murano",
@@ -647,12 +646,12 @@
     "id_jogo": "Base.GlassmakingMag1",
     "icone_local": "assets/icons/revistas/Item_Magazine_Glass1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-no-man-s-land",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Terra de ninguém",
     "nome_en": "No Man's Land",
     "nome_ptbr_referencia": "Terra de ninguém",
@@ -660,12 +659,12 @@
     "id_jogo": "Base.WeaponMag2",
     "icone_local": "assets/icons/revistas/Item_Magazine_War1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-outdoor-gear-done-right",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Equipamentos de aventura do jeito certo",
     "nome_en": "Outdoor Gear, Done Right",
     "nome_ptbr_referencia": "Equipamentos de aventura do jeito certo",
@@ -673,12 +672,12 @@
     "id_jogo": "Base.TailoringMag8",
     "icone_local": "assets/icons/revistas/Item_Magazine_Outdoors1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-outfit-apocalypse",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Visual do apocalipse",
     "nome_en": "Outfit Apocalypse",
     "nome_ptbr_referencia": "Visual do apocalipse",
@@ -686,12 +685,12 @@
     "id_jogo": "Base.ArmorMag1",
     "icone_local": "assets/icons/revistas/Item_Magazine_War2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-pioneering-carvers",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Pioneiros do entalhe",
     "nome_en": "Pioneering Carvers",
     "nome_ptbr_referencia": "Pioneiros do entalhe",
@@ -699,12 +698,12 @@
     "id_jogo": "Base.PrimitiveToolMag3",
     "icone_local": "assets/icons/revistas/Item_Magazine_Carving.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-punk-fashion-from-trash-to-thrash",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Moda punk — do lixo ao thrash",
     "nome_en": "Punk Fashion - From Trash to Thrash",
     "nome_ptbr_referencia": "Moda punk — do lixo ao thrash",
@@ -712,12 +711,12 @@
     "id_jogo": "Base.TailoringMag2",
     "icone_local": "assets/icons/revistas/Item_Magazine_PunkFashion.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-real-gladiators",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Gladiadores de verdade",
     "nome_en": "Real Gladiators",
     "nome_ptbr_referencia": "Gladiadores de verdade",
@@ -725,12 +724,12 @@
     "id_jogo": "Base.TailoringMag6",
     "icone_local": "assets/icons/revistas/Item_Magazine_Gladiatorpng.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-real-spy-secrets-june-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Segredos reais de espionagem — junho de 1993",
     "nome_en": "Real Spy Secrets - June 1993",
     "nome_ptbr_referencia": "Segredos reais de espionagem — junho de 1993",
@@ -738,12 +737,12 @@
     "id_jogo": "Base.EngineerMagazine1",
     "icone_local": "assets/icons/revistas/Item_Magazine_Spy2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-real-spy-secrets-may-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Segredos reais de espionagem — maio de 1993",
     "nome_en": "Real Spy Secrets - May 1993",
     "nome_ptbr_referencia": "Segredos reais de espionagem — maio de 1993",
@@ -751,12 +750,12 @@
     "id_jogo": "Base.TrickMag1",
     "icone_local": "assets/icons/revistas/Item_Magazine_Spy1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-revolting-peasants",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Camponeses revoltosos",
     "nome_en": "Revolting Peasants",
     "nome_ptbr_referencia": "Camponeses revoltosos",
@@ -764,12 +763,12 @@
     "id_jogo": "Base.WeaponMag6",
     "icone_local": "assets/icons/revistas/Item_Magazine_History_PeasantRevolt.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-secrets-of-the-outback-outlaws",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Segredos dos fora da lei do interior australiano",
     "nome_en": "Secrets of the Outback Outlaws",
     "nome_ptbr_referencia": "Segredos dos fora da lei do interior australiano",
@@ -777,12 +776,12 @@
     "id_jogo": "Base.ArmorMag3",
     "icone_local": "assets/icons/revistas/Item_Magazine_OutbackArmour.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-small-game-hunting",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Caça de pequenos animais",
     "nome_en": "Small Game Hunting",
     "nome_ptbr_referencia": "Caça de pequenos animais",
@@ -790,12 +789,12 @@
     "id_jogo": "Base.HuntingMag1",
     "icone_local": "assets/icons/revistas/Item_MagazineHunting.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-small-scale-smithing",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Ferraria em pequena escala",
     "nome_en": "Small-Scale Smithing",
     "nome_ptbr_referencia": "Ferraria em pequena escala",
@@ -803,12 +802,12 @@
     "id_jogo": "Base.SmithingMag4",
     "icone_local": "assets/icons/revistas/Item_MagazineBlacksmith4.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-sparky-s-lighting-guide",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Guia de iluminação do Sparky",
     "nome_en": "Sparky's Lighting Guide",
     "nome_ptbr_referencia": "Guia de iluminação do Sparky",
@@ -816,12 +815,12 @@
     "id_jogo": "Base.ElectronicsMag5",
     "icone_local": "assets/icons/revistas/Item_Magazine_Electric.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-sparky-s-radio-guide",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Guia de rádio do Sparky",
     "nome_en": "Sparky's Radio Guide",
     "nome_ptbr_referencia": "Guia de rádio do Sparky",
@@ -829,12 +828,12 @@
     "id_jogo": "Base.RadioMag2",
     "icone_local": "assets/icons/revistas/Item_Magazine_Electric2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-strange-histories-siberian-bear-hunting",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Histórias estranhas — caça a ursos siberianos",
     "nome_en": "Strange Histories - Siberian Bear Hunting",
     "nome_ptbr_referencia": "Histórias estranhas — caça a ursos siberianos",
@@ -842,12 +841,12 @@
     "id_jogo": "Base.ArmorMag6",
     "icone_local": "assets/icons/revistas/Item_Magazine_StrangeHistory.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-the-cheapskate-s-john-spiral-chemical-warfare",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "John Spiral para mãos de vaca — guerra química",
     "nome_en": "The Cheapskate's John Spiral - Chemical Warfare",
     "nome_ptbr_referencia": "John Spiral para mãos de vaca — guerra química",
@@ -855,12 +854,12 @@
     "id_jogo": "Base.EngineerMagazine2",
     "icone_local": "assets/icons/revistas/Item_Magazine_Underground3.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-the-cheapskate-s-john-spiral-escaping-captivity",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "John Spiral para mãos de vaca — fugindo do cativeiro",
     "nome_en": "The Cheapskate's John Spiral - Escaping Captivity",
     "nome_ptbr_referencia": "John Spiral para mãos de vaca — fugindo do cativeiro",
@@ -868,12 +867,12 @@
     "id_jogo": "Base.KeyMag1",
     "icone_local": "assets/icons/revistas/Item_Magazine_Underground4.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-the-cheapskate-s-john-spiral-forging-new-identities",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "John Spiral para mãos de vaca — forjando novas identidades",
     "nome_en": "The Cheapskate's John Spiral - Forging New Identities",
     "nome_ptbr_referencia": "John Spiral para mãos de vaca — forjando novas identidades",
@@ -881,12 +880,12 @@
     "id_jogo": "Base.TrickMag2",
     "icone_local": "assets/icons/revistas/Item_Magazine_Underground5.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-the-cheapskate-s-john-spiral-homemade-explosives",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "John Spiral para mãos de vaca — explosivos caseiros",
     "nome_en": "The Cheapskate's John Spiral - Homemade Explosives",
     "nome_ptbr_referencia": "John Spiral para mãos de vaca — explosivos caseiros",
@@ -894,12 +893,12 @@
     "id_jogo": "Base.EngineerMagazine3",
     "icone_local": "assets/icons/revistas/Item_Magazine_Underground6.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-the-cheapskate-s-john-spiral-prison-defense",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "John Spiral para mãos de vaca — defesa na prisão",
     "nome_en": "The Cheapskate's John Spiral - Prison Defense",
     "nome_ptbr_referencia": "John Spiral para mãos de vaca — defesa na prisão",
@@ -907,12 +906,12 @@
     "id_jogo": "Base.WeaponMag3",
     "icone_local": "assets/icons/revistas/Item_Magazine_Underground1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-the-cheapskate-s-john-spiral-street-violence",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "John Spiral para mãos de vaca — violência nas ruas",
     "nome_en": "The Cheapskate's John Spiral - Street Violence",
     "nome_ptbr_referencia": "John Spiral para mãos de vaca — violência nas ruas",
@@ -920,12 +919,12 @@
     "id_jogo": "Base.WeaponMag5",
     "icone_local": "assets/icons/revistas/Item_Magazine_Underground2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-the-farmers-guide",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Guia dos agricultores",
     "nome_en": "The Farmers Guide",
     "nome_ptbr_referencia": "Guia dos agricultores",
@@ -933,12 +932,12 @@
     "id_jogo": "Base.FarmingMag4",
     "icone_local": "assets/icons/revistas/Item_Magazine_Farming9.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-the-first-weapons",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "As primeiras armas",
     "nome_en": "The First Weapons",
     "nome_ptbr_referencia": "As primeiras armas",
@@ -946,12 +945,12 @@
     "id_jogo": "Base.WeaponMag1",
     "icone_local": "assets/icons/revistas/Item_Magazine_War3.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-the-hunter",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "O caçador",
     "nome_en": "The Hunter",
     "nome_ptbr_referencia": "O caçador",
@@ -959,12 +958,12 @@
     "id_jogo": "Base.HuntingMag2",
     "icone_local": "assets/icons/revistas/Item_MagazineHunting2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-the-louisville-bruiser",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "O brutamontes de Louisville",
     "nome_en": "The Louisville Bruiser",
     "nome_ptbr_referencia": "O brutamontes de Louisville",
@@ -972,12 +971,12 @@
     "id_jogo": "Base.WeaponMag7",
     "icone_local": "assets/icons/revistas/Item_Magazine_Baseball.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-thyme-time",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Hora do tomilho",
     "nome_en": "Thyme Time",
     "nome_ptbr_referencia": "Hora do tomilho",
@@ -985,12 +984,12 @@
     "id_jogo": "Base.FarmingMag8",
     "icone_local": "assets/icons/revistas/Item_Magazine_Farming10.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-tool-use-of-early-man",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Uso de ferramentas pelo homem primitivo",
     "nome_en": "Tool Use of Early Man",
     "nome_ptbr_referencia": "Uso de ferramentas pelo homem primitivo",
@@ -998,12 +997,12 @@
     "id_jogo": "Base.PrimitiveToolMag1",
     "icone_local": "assets/icons/revistas/Item_Magazine_EarlyToolmaking.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-welder-monthly-april-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Soldador mensal — abril de 1993",
     "nome_en": "Welder Monthly - April 1993",
     "nome_ptbr_referencia": "Soldador mensal — abril de 1993",
@@ -1011,12 +1010,12 @@
     "id_jogo": "Base.MetalworkMag3",
     "icone_local": "assets/icons/revistas/Item_MagazineWelding3.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-welder-monthly-june-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Soldador mensal — junho de 1993",
     "nome_en": "Welder Monthly - June 1993",
     "nome_ptbr_referencia": "Soldador mensal — junho de 1993",
@@ -1024,12 +1023,12 @@
     "id_jogo": "Base.MetalworkMag1",
     "icone_local": "assets/icons/revistas/Item_MagazineWelding1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-welder-monthly-march-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Soldador mensal — março de 1993",
     "nome_en": "Welder Monthly - March 1993",
     "nome_ptbr_referencia": "Soldador mensal — março de 1993",
@@ -1037,12 +1036,12 @@
     "id_jogo": "Base.MetalworkMag4",
     "icone_local": "assets/icons/revistas/Item_MagazineWelding3.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-welder-monthly-may-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Soldador mensal — maio de 1993",
     "nome_en": "Welder Monthly - May 1993",
     "nome_ptbr_referencia": "Soldador mensal — maio de 1993",
@@ -1050,12 +1049,12 @@
     "id_jogo": "Base.MetalworkMag2",
     "icone_local": "assets/icons/revistas/Item_MagazineWelding2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-wilderness-survival",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Sobrevivência na natureza",
     "nome_en": "Wilderness Survival",
     "nome_ptbr_referencia": "Sobrevivência na natureza",
@@ -1063,12 +1062,12 @@
     "id_jogo": "Base.HerbalistMag",
     "icone_local": "assets/icons/revistas/Item_Magazine_Survival1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-wildlife-preserve",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Reserva de vida selvagem",
     "nome_en": "Wildlife Preserve",
     "nome_ptbr_referencia": "Reserva de vida selvagem",
@@ -1076,12 +1075,12 @@
     "id_jogo": "Base.HuntingMag3",
     "icone_local": "assets/icons/revistas/Item_MagazineHunting3.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-woolly-yarns-june-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Histórias de lã — junho de 1993",
     "nome_en": "Woolly Yarns - June 1993",
     "nome_ptbr_referencia": "Histórias de lã — junho de 1993",
@@ -1089,12 +1088,12 @@
     "id_jogo": "Base.KnittingMag1",
     "icone_local": "assets/icons/revistas/Item_Magazine_Knitting1.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-woolly-yarns-may-1993",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Histórias de lã — maio de 1993",
     "nome_en": "Woolly Yarns - May 1993",
     "nome_ptbr_referencia": "Histórias de lã — maio de 1993",
@@ -1102,12 +1101,12 @@
     "id_jogo": "Base.KnittingMag2",
     "icone_local": "assets/icons/revistas/Item_Magazine_Knitting2.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-world-cooking",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Culinária mundial",
     "nome_en": "World Cooking",
     "nome_ptbr_referencia": "Culinária mundial",
@@ -1115,12 +1114,12 @@
     "id_jogo": "Base.CookingMag5",
     "icone_local": "assets/icons/revistas/Item_MagazineFood5.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "revista-zapper",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Choque!",
     "nome_en": "Zapper!",
     "nome_ptbr_referencia": "Choque!",
@@ -1128,13 +1127,13 @@
     "id_jogo": "Base.ElectronicsMag1",
     "icone_local": "assets/icons/revistas/Item_MagazineElectronics01.png",
     "fonte": "PZ Skill Collectibles Checklist 42.20.4 — tradução de referência",
-    "status_validacao": "pendente_jogo_refugio"
+    "status_validacao": "pendente_validacao_no_jogo",
+    "nome_catalogo": null
   },
   {
     "id": "mod-lifestyle-lsmagazineedition1",
     "tipo": "revistas",
     "nome": "HomeStyle: edição especial DISCO",
-    "nome_refugio": null,
     "nome_en": "HomeStyle: DISCO Special Edition",
     "nome_ptbr_vanilla": null,
     "nome_ptbr_referencia": "HomeStyle: edição especial DISCO",
@@ -1149,13 +1148,13 @@
       "LS_Microphone",
       "LS_DiscoFloor"
     ],
-    "status_validacao": "mod_instalado_servidor_nao_confirmado"
+    "status_validacao": "mod_instalado_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-lifestyle-lsmagazineedition2",
     "tipo": "revistas",
     "nome": "HomeStyle: segredos do ateliê",
-    "nome_refugio": null,
     "nome_en": "HomeStyle: Secrets of the Atelier",
     "nome_ptbr_vanilla": null,
     "nome_ptbr_referencia": "HomeStyle: segredos do ateliê",
@@ -1171,13 +1170,13 @@
       "LS_SculptingStation",
       "LS_InvWorkbench"
     ],
-    "status_validacao": "mod_instalado_servidor_nao_confirmado"
+    "status_validacao": "mod_instalado_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-companiondogs-homevet",
     "tipo": "revistas",
     "nome": "Manual veterinário doméstico (cães)",
-    "nome_refugio": null,
     "nome_en": "CompanionDogsHomeVet",
     "nome_ptbr_vanilla": null,
     "nome_ptbr_referencia": "Manual veterinário doméstico (cães)",
@@ -1186,13 +1185,13 @@
     "fonte": "CompanionDogs[RF7] [3825043662]",
     "origem_catalogo": "mod",
     "mod": "CompanionDogs",
-    "status_validacao": "mod_instalado_servidor_nao_confirmado"
+    "status_validacao": "mod_instalado_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-horse-saddleup",
     "tipo": "revistas",
     "nome": "Preparando a montaria",
-    "nome_refugio": null,
     "nome_en": "Magazine_SaddleUp",
     "nome_ptbr_vanilla": null,
     "nome_ptbr_referencia": "Preparando a montaria",
@@ -1206,12 +1205,12 @@
       "HorseSaddlebags",
       "HorseReins"
     ],
-    "status_validacao": "mod_instalado_servidor_nao_confirmado"
+    "status_validacao": "mod_instalado_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-04vwtouran-04vwtouranmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "04 Volkswagen Touran Auto Manual",
     "nome_en": "04 Volkswagen Touran Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1222,12 +1221,12 @@
     "origem_catalogo": "mod",
     "mod": "04vwTouran",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-49powerwagon-49powerwagonmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "49 Dodge Power Wagon Auto Manual",
     "nome_en": "49 Dodge Power Wagon Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1238,12 +1237,12 @@
     "origem_catalogo": "mod",
     "mod": "49powerWagon",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-59-cadillac-miller-meteor-ecto1magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "59 Cadillac Miller-Meteor Auto Manual",
     "nome_en": "59 Cadillac Miller-Meteor Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1254,12 +1253,12 @@
     "origem_catalogo": "mod",
     "mod": "59 Cadillac Miller-Meteor",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-62daimlerferret-62daimlerferretmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "62 Daimler Ferret Auto Manual",
     "nome_en": "62 Daimler Ferret Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1270,12 +1269,12 @@
     "origem_catalogo": "mod",
     "mod": "62daimlerFerret",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-63beetle-63beetlemagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "63 VW Type 1 Auto Manual",
     "nome_en": "63 VW Type 1 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1286,12 +1285,12 @@
     "origem_catalogo": "mod",
     "mod": "63beetle",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-63type2van-63type2vanmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "63 VW Type 2 Auto Manual",
     "nome_en": "63 VW Type 2 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1302,12 +1301,12 @@
     "origem_catalogo": "mod",
     "mod": "63Type2Van",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-65banshee-65bansheemagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "65 Pontiac Banshee Auto Manual",
     "nome_en": "65 Pontiac Banshee Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1318,12 +1317,12 @@
     "origem_catalogo": "mod",
     "mod": "65banshee",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-66pontiaclemans-66pontiaclemansmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "66 Pontiac LeMans / GTO Auto Manual",
     "nome_en": "66 Pontiac LeMans / GTO Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1334,12 +1333,12 @@
     "origem_catalogo": "mod",
     "mod": "66pontiacLeMans",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-67chevyimpala-67chevyimpalamagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "67 Chevrolet Impala Auto Manual",
     "nome_en": "67 Chevrolet Impala Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1350,12 +1349,12 @@
     "origem_catalogo": "mod",
     "mod": "67chevyImpala",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-67commando-67commandomagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "67 M706 Commando Auto Manual",
     "nome_en": "67 M706 Commando Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1366,12 +1365,12 @@
     "origem_catalogo": "mod",
     "mod": "67commando",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-67gt500-67gt500magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "67 Shelby GT500 Auto Manual",
     "nome_en": "67 Shelby GT500 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1382,12 +1381,12 @@
     "origem_catalogo": "mod",
     "mod": "67gt500",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-68firebird-68firebirdmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "68 Pontiac Firebird Auto Manual",
     "nome_en": "68 Pontiac Firebird Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1398,12 +1397,12 @@
     "origem_catalogo": "mod",
     "mod": "68firebird",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-69camaro-69camaromagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "69 Chevrolet Camaro Auto Manual",
     "nome_en": "69 Chevrolet Camaro Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1414,12 +1413,12 @@
     "origem_catalogo": "mod",
     "mod": "69camaro",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-69charger-69chargermagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "69 Dodge Charger Auto Manual",
     "nome_en": "69 Dodge Charger Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1430,12 +1429,12 @@
     "origem_catalogo": "mod",
     "mod": "69charger",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-69fordmustang-69fordmustangmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "69 Ford Mustang Auto Manual",
     "nome_en": "69 Ford Mustang Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1446,12 +1445,12 @@
     "origem_catalogo": "mod",
     "mod": "69fordMustang",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-69mini-69minimagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "69 Mini Auto Manual",
     "nome_en": "69 Mini Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1462,12 +1461,12 @@
     "origem_catalogo": "mod",
     "mod": "69mini",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-70barracuda-cudamagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "70 Plymouth Barracuda Auto Manual",
     "nome_en": "70 Plymouth Barracuda Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1478,12 +1477,12 @@
     "origem_catalogo": "mod",
     "mod": "70barracuda",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-70chevelle-70chevellemagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "70 Chevrolet Chevelle/El Camino Auto Manual",
     "nome_en": "70 Chevrolet Chevelle/El Camino Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1494,12 +1493,12 @@
     "origem_catalogo": "mod",
     "mod": "70chevelle",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-70dodge-dodgemagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "70 Dodge Challenger Auto Manual",
     "nome_en": "70 Dodge Challenger Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1510,12 +1509,12 @@
     "origem_catalogo": "mod",
     "mod": "70dodge",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-70fordescort-70fordescortmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "70 Ford Escort Auto Manual",
     "nome_en": "70 Ford Escort Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1526,12 +1525,12 @@
     "origem_catalogo": "mod",
     "mod": "70fordEscort",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-70roadrunner-70roadrunnermagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "70 Plymouth Road Runner Auto Manual",
     "nome_en": "70 Plymouth Road Runner Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1542,12 +1541,12 @@
     "origem_catalogo": "mod",
     "mod": "70roadRunner",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-73fordfalcon-73fordfalconmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "73 Ford Falcon XB Auto Manual",
     "nome_en": "73 Ford Falcon XB Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1558,12 +1557,12 @@
     "origem_catalogo": "mod",
     "mod": "73fordFalcon",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-73nissangtr-73nissangtrmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "73 NISSAN Skyline GT-R Auto Manual",
     "nome_en": "73 NISSAN Skyline GT-R Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1574,12 +1573,12 @@
     "origem_catalogo": "mod",
     "mod": "73nissanGTR",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-75grandprix-75grandprixmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "75 Pontiac Grand Prix Auto Manual",
     "nome_en": "75 Pontiac Grand Prix Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1590,12 +1589,12 @@
     "origem_catalogo": "mod",
     "mod": "75grandPrix",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-76chevykseries-76chevykseriesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "76 Chevrolet K Series Auto Manual",
     "nome_en": "76 Chevrolet K Series Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1606,12 +1605,12 @@
     "origem_catalogo": "mod",
     "mod": "76chevyKseries",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-76chryslernewyorker-76chryslernewyorkermagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "76 Chrysler New Yorker Auto Manual",
     "nome_en": "76 Chrysler New Yorker Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1622,12 +1621,12 @@
     "origem_catalogo": "mod",
     "mod": "76chryslerNewYorker",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-77firebird-77firebirdmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "77 Pontiac Firebird Auto Manual",
     "nome_en": "77 Pontiac Firebird Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1638,12 +1637,12 @@
     "origem_catalogo": "mod",
     "mod": "77firebird",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-78amgeneralm35a2-m35a2magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "78 AM General M35A2 Auto Manual",
     "nome_en": "78 AM General M35A2 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1654,12 +1653,12 @@
     "origem_catalogo": "mod",
     "mod": "78amgeneralM35A2",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-78lambocountach-78lambocountachmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "78 Lamborghini Countach LP400 Auto Manual",
     "nome_en": "78 Lamborghini Countach LP400 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1670,12 +1669,12 @@
     "origem_catalogo": "mod",
     "mod": "78lamboCountach",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-79camaro-79camaromagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "79 Chevrolet Camaro Auto Manual",
     "nome_en": "79 Chevrolet Camaro Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1686,12 +1685,12 @@
     "origem_catalogo": "mod",
     "mod": "79camaro",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-80mankat1-80mankat1magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "80 MAN KAT1 Auto Manual",
     "nome_en": "80 MAN KAT1 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1702,12 +1701,12 @@
     "origem_catalogo": "mod",
     "mod": "80manKat1",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-81deloreandmc12-81deloreandmc12magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "81 DeLorean DMC-12 Auto Manual",
     "nome_en": "81 DeLorean DMC-12 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1718,12 +1717,12 @@
     "origem_catalogo": "mod",
     "mod": "81deloreanDMC12",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-82firebird-82firebirdmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "82 Pontiac Firebird Auto Manual",
     "nome_en": "82 Pontiac Firebird Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1734,12 +1733,12 @@
     "origem_catalogo": "mod",
     "mod": "82firebird",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-82oshkoshm911-m911magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "82 Oshkosh M911 Auto Manual",
     "nome_en": "82 Oshkosh M911 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1750,12 +1749,12 @@
     "origem_catalogo": "mod",
     "mod": "82oshkoshM911",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-82porsche911-82porsche911magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "82 Porsche 911 Auto Manual",
     "nome_en": "82 Porsche 911 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1766,12 +1765,12 @@
     "origem_catalogo": "mod",
     "mod": "82porsche911",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-83amgeneralm923-m923magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "83 AM General M923 Auto Manual",
     "nome_en": "83 AM General M923 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1782,12 +1781,12 @@
     "origem_catalogo": "mod",
     "mod": "83amgeneralM923",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-83gmcgseriesvans-83gmcgseriesvansmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "83 GMC G-Series Auto Manual",
     "nome_en": "83 GMC G-Series Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1798,12 +1797,12 @@
     "origem_catalogo": "mod",
     "mod": "83gmcGseriesVans",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-84buickelectra-84buickelectramagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "84 Buick Electra Auto Manual",
     "nome_en": "84 Buick Electra Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1814,12 +1813,12 @@
     "origem_catalogo": "mod",
     "mod": "84buickElectra",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-84cadillacdeville-84cadillacdevillemagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "84 Cadillac DeVille Auto Manual",
     "nome_en": "84 Cadillac DeVille Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1830,12 +1829,12 @@
     "origem_catalogo": "mod",
     "mod": "84cadillacDeVille",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-84corvette-84corvettemagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "84/93 Chevrolet Corvette Auto Manual",
     "nome_en": "84/93 Chevrolet Corvette Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1846,12 +1845,12 @@
     "origem_catalogo": "mod",
     "mod": "84corvette",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-84gagev300-v300magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "84 Cadillac Gage LAV-300 Auto Manual",
     "nome_en": "84 Cadillac Gage LAV-300 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1862,12 +1861,12 @@
     "origem_catalogo": "mod",
     "mod": "84gageV300",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-84jeepxj-84jeepxjmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "84 Jeep Cherokee XJ Auto Manual",
     "nome_en": "84 Jeep Cherokee XJ Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1878,12 +1877,12 @@
     "origem_catalogo": "mod",
     "mod": "84jeepXJ",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-84mercw460-w460magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "84 Mercedes Benz W460 Auto Manual",
     "nome_en": "84 Mercedes Benz W460 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1894,12 +1893,12 @@
     "origem_catalogo": "mod",
     "mod": "84mercW460",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-84oldsmobile98-84oldsmobile98magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "84 Oldsmobile 98 Regency Auto Manual",
     "nome_en": "84 Oldsmobile 98 Regency Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1910,12 +1909,12 @@
     "origem_catalogo": "mod",
     "mod": "84oldsmobile98",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-85buicklesabre-85buicklesabremagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "85 Buick LeSabre Auto Manual",
     "nome_en": "85 Buick LeSabre Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1926,12 +1925,12 @@
     "origem_catalogo": "mod",
     "mod": "85buickLeSabre",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-85chevycaprice-85chevycapricemagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "85 Chevrolet Caprice/Impala Auto Manual",
     "nome_en": "85 Chevrolet Caprice/Impala Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1942,12 +1941,12 @@
     "origem_catalogo": "mod",
     "mod": "85chevyCaprice",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-85chevystepvan-85chevystepvanmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "85 Chevrolet Step-Van Auto Manual",
     "nome_en": "85 Chevrolet Step-Van Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1958,12 +1957,12 @@
     "origem_catalogo": "mod",
     "mod": "85chevyStepVan",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-85oldsmobiledelta88-85oldsmobiledelta88magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "85 Oldsmobile Delta 88 Auto Manual",
     "nome_en": "85 Oldsmobile Delta 88 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1974,12 +1973,12 @@
     "origem_catalogo": "mod",
     "mod": "85oldsmobileDelta88",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-85pontiacparisienne-85pontiacparisiennemagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "85 Pontiac Parisienne Auto Manual",
     "nome_en": "85 Pontiac Parisienne Auto Manual",
     "nome_ptbr_referencia": null,
@@ -1990,12 +1989,12 @@
     "origem_catalogo": "mod",
     "mod": "85pontiacParisienne",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-86chevycucv-86chevycucvmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "86 Chevrolet CUCV Auto Manual",
     "nome_en": "86 Chevrolet CUCV Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2006,12 +2005,12 @@
     "origem_catalogo": "mod",
     "mod": "86chevyCUCV",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-86forde150-e150magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "86 Ford E150 Auto Manual",
     "nome_en": "86 Ford E150 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2022,12 +2021,12 @@
     "origem_catalogo": "mod",
     "mod": "86fordE150",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-86oshkoshp19a-p19amagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "86 Oshkosh P19A Auto Manual",
     "nome_en": "86 Oshkosh P19A Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2038,12 +2037,12 @@
     "origem_catalogo": "mod",
     "mod": "86oshkoshP19A",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-87buickregal-87buickregalmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "87 Buick Regal Auto Manual",
     "nome_en": "87 Buick Regal Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2054,12 +2053,12 @@
     "origem_catalogo": "mod",
     "mod": "87buickRegal",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-87chevysuburban-87chevysuburbanmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "87 Chevrolet Suburban Auto Manual",
     "nome_en": "87 Chevrolet Suburban Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2070,12 +2069,12 @@
     "origem_catalogo": "mod",
     "mod": "87chevySuburban",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-87fordb700-87fordbf700magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "87 Ford B/F700 Auto Manual",
     "nome_en": "87 Ford B/F700 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2086,12 +2085,12 @@
     "origem_catalogo": "mod",
     "mod": "87fordB700",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-87toyotacorolla-87toyotacorollaae92magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "87 Toyota Corolla AE92 Auto Manual",
     "nome_en": "87 Toyota Corolla AE92 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2102,12 +2101,12 @@
     "origem_catalogo": "mod",
     "mod": "87toyotaCorolla",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-87toyotamr2-87toyotamr2magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "87 Toyota MR2 Auto Manual",
     "nome_en": "87 Toyota MR2 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2118,12 +2117,12 @@
     "origem_catalogo": "mod",
     "mod": "87toyotaMR2",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-88chevys10-88chevys10magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "88 Chevrolet S10 Auto Manual",
     "nome_en": "88 Chevrolet S10 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2134,12 +2133,12 @@
     "origem_catalogo": "mod",
     "mod": "88chevyS10",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-88toyotahilux-88toyotahiluxmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "88 Toyota Hilux Auto Manual",
     "nome_en": "88 Toyota Hilux Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2150,12 +2149,12 @@
     "origem_catalogo": "mod",
     "mod": "88toyotaHilux",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-89defender-89defendermagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "89 LR Defender Auto Manual",
     "nome_en": "89 LR Defender Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2166,12 +2165,12 @@
     "origem_catalogo": "mod",
     "mod": "89defender",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-89dodgecaravan-89dodgecaravanmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "89 Dodge Caravan Auto Manual",
     "nome_en": "89 Dodge Caravan Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2182,12 +2181,12 @@
     "origem_catalogo": "mod",
     "mod": "89dodgeCaravan",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-89fordbronco-89broncomagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "89 Ford Bronco Auto Manual",
     "nome_en": "89 Ford Bronco Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2198,12 +2197,12 @@
     "origem_catalogo": "mod",
     "mod": "89fordBronco",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-89trooper-89troopermagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "89 ISUZU Trooper Auto Manual",
     "nome_en": "89 ISUZU Trooper Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2214,12 +2213,12 @@
     "origem_catalogo": "mod",
     "mod": "89trooper",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-89volvo200-89volvo200magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "89 Volvo 200 Series Auto Manual",
     "nome_en": "89 Volvo 200 Series Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2230,12 +2229,12 @@
     "origem_catalogo": "mod",
     "mod": "89volvo200",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-90bmwe30-90bmwe30magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "90 BMW E30 Auto Manual",
     "nome_en": "90 BMW E30 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2246,12 +2245,12 @@
     "origem_catalogo": "mod",
     "mod": "90bmwE30",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-90fordf350ambulance-90fordf350magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "90 Ford F350 Ambulance Auto Manual",
     "nome_en": "90 Ford F350 Ambulance Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2262,12 +2261,12 @@
     "origem_catalogo": "mod",
     "mod": "90fordF350ambulance",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-90piercearrow-90piercearrowmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "90 Pierce Arrow Auto Manual",
     "nome_en": "90 Pierce Arrow Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2278,12 +2277,12 @@
     "origem_catalogo": "mod",
     "mod": "90pierceArrow",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-91fordltd-91fordltdmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "91 Ford LTD Auto Manual",
     "nome_en": "91 Ford LTD Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2294,12 +2293,12 @@
     "origem_catalogo": "mod",
     "mod": "91fordLTD",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-91fordranger-91fordrangermagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "91 Ford Ranger Auto Manual",
     "nome_en": "91 Ford Ranger Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2310,12 +2309,12 @@
     "origem_catalogo": "mod",
     "mod": "91fordRanger",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-91geometro-91geometromagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "91 Geo Metro Auto Manual",
     "nome_en": "91 Geo Metro Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2326,12 +2325,12 @@
     "origem_catalogo": "mod",
     "mod": "91geoMetro",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-91lexusls400-91lexusls400magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "91 Lexus LS400 Auto Manual",
     "nome_en": "91 Lexus LS400 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2342,12 +2341,12 @@
     "origem_catalogo": "mod",
     "mod": "91lexusLS400",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-91nissan240sx-91nissan240sxmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "91 Nissan 240SX Auto Manual",
     "nome_en": "91 Nissan 240SX Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2358,12 +2357,12 @@
     "origem_catalogo": "mod",
     "mod": "91nissan240sx",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-91range-91rangemagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "91 Range Rover Auto Manual",
     "nome_en": "91 Range Rover Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2374,12 +2373,12 @@
     "origem_catalogo": "mod",
     "mod": "91range",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-92amgeneralm998-92amgeneralm998magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "92 AM General M998 Auto Manual",
     "nome_en": "92 AM General M998 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2390,12 +2389,12 @@
     "origem_catalogo": "mod",
     "mod": "92amgeneralM998",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-92fordcvpi-92fordcvpimagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "92 Ford CVPI Auto Manual",
     "nome_en": "92 Ford CVPI Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2406,12 +2405,12 @@
     "origem_catalogo": "mod",
     "mod": "92fordCVPI",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-92jeepyj-92jeepyjmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "92 Jeep Wrangler YJ Auto Manual",
     "nome_en": "92 Jeep Wrangler YJ Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2422,12 +2421,12 @@
     "origem_catalogo": "mod",
     "mod": "92jeepYJ",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-92nissangtr-r32magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "92 Nissan Skyline R32 Auto Manual",
     "nome_en": "92 Nissan Skyline R32 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2438,12 +2437,12 @@
     "origem_catalogo": "mod",
     "mod": "92nissanGTR",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-92vwgolfmk2-92vwgolfmk2magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "92 Volkswagen Golf Mk2 Auto Manual",
     "nome_en": "92 Volkswagen Golf Mk2 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2454,12 +2453,12 @@
     "origem_catalogo": "mod",
     "mod": "92vwGolfMk2",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-93chevysuburban-93chevysuburbanmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "93 Chevrolet Suburban/Silverado Auto Manual",
     "nome_en": "93 Chevrolet Suburban/Silverado Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2470,12 +2469,12 @@
     "origem_catalogo": "mod",
     "mod": "93chevySuburban",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-93fordelgin-93fordcf8000magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "93 Ford CF8000 Auto Manual",
     "nome_en": "93 Ford CF8000 Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2486,12 +2485,12 @@
     "origem_catalogo": "mod",
     "mod": "93fordElgin",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-93fordf350-93fordf350magazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "93 F-Series Auto Manual",
     "nome_en": "93 F-Series Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2502,12 +2501,12 @@
     "origem_catalogo": "mod",
     "mod": "93fordF350",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-93fordtaurus-93fordtaurusmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "93 Ford Taurus Auto Manual",
     "nome_en": "93 Ford Taurus Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2518,12 +2517,12 @@
     "origem_catalogo": "mod",
     "mod": "93fordTaurus",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-93mustangssp-93mustangsspmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "93 Ford Mustang Auto Manual",
     "nome_en": "93 Ford Mustang Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2534,12 +2533,12 @@
     "origem_catalogo": "mod",
     "mod": "93mustangSSP",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-93towncar-93towncarmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "93 Lincoln Town Car Auto Manual",
     "nome_en": "93 Lincoln Town Car Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2550,12 +2549,12 @@
     "origem_catalogo": "mod",
     "mod": "93townCar",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-95impreza-95imprezamagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "95 Subaru Impreza WRX STI Auto Manual",
     "nome_en": "95 Subaru Impreza WRX STI Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2566,12 +2565,12 @@
     "origem_catalogo": "mod",
     "mod": "95impreza",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-96lancerevo-96lancerevomagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "96 Mitsubishi Lancer EVO IV Auto Manual",
     "nome_en": "96 Mitsubishi Lancer EVO IV Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2582,12 +2581,12 @@
     "origem_catalogo": "mod",
     "mod": "96lancerEVO",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-96saturnsseries-96saturnsseriesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "96 Saturn S Auto Manual",
     "nome_en": "96 Saturn S Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2598,12 +2597,12 @@
     "origem_catalogo": "mod",
     "mod": "96saturnSseries",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-97bushmaster-97bushmastermagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Bushmaster Auto Manual",
     "nome_en": "Bushmaster Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2614,12 +2613,12 @@
     "origem_catalogo": "mod",
     "mod": "97bushmaster",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-98stagea-98stageamagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "98 Nissan Stagea 260RS Autech Auto Manual",
     "nome_en": "98 Nissan Stagea 260RS Autech Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2630,12 +2629,12 @@
     "origem_catalogo": "mod",
     "mod": "98stagea",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-99fordcvpi-99fordcvpimagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "99 Ford CVPI Auto Manual",
     "nome_en": "99 Ford CVPI Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2646,12 +2645,12 @@
     "origem_catalogo": "mod",
     "mod": "99fordCVPI",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-daihatsuhijettruck-hijet100pmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Daihatsu Hijet Auto Manual",
     "nome_en": "Daihatsu Hijet Auto Manual",
     "nome_ptbr_referencia": null,
@@ -2662,12 +2661,12 @@
     "origem_catalogo": "mod",
     "mod": "DaihatsuHijetTruck",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-damnlib-magemergencyvehiclesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Emergency Vehicles Service Manual",
     "nome_en": "Emergency Vehicles Service Manual",
     "nome_ptbr_referencia": null,
@@ -2678,12 +2677,12 @@
     "origem_catalogo": "mod",
     "mod": "damnlib",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-damnlib-magmilitaryvehiclesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Military Vehicles Service Manual",
     "nome_en": "Military Vehicles Service Manual",
     "nome_ptbr_referencia": null,
@@ -2694,12 +2693,12 @@
     "origem_catalogo": "mod",
     "mod": "damnlib",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-damnlib-magpassengerclassicvehiclesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Passenger Vehicles: Classic Era",
     "nome_en": "Passenger Vehicles: Classic Era",
     "nome_ptbr_referencia": null,
@@ -2710,12 +2709,12 @@
     "origem_catalogo": "mod",
     "mod": "damnlib",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-damnlib-magpassengermidvehiclesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Passenger Vehicles: Mid Era",
     "nome_en": "Passenger Vehicles: Mid Era",
     "nome_ptbr_referencia": null,
@@ -2726,12 +2725,12 @@
     "origem_catalogo": "mod",
     "mod": "damnlib",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-damnlib-magpassengermodernvehiclesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Passenger Vehicles: Modern Era",
     "nome_en": "Passenger Vehicles: Modern Era",
     "nome_ptbr_referencia": null,
@@ -2742,12 +2741,12 @@
     "origem_catalogo": "mod",
     "mod": "damnlib",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-damnlib-magperformancevehiclesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Ultimate Performance Car Guide",
     "nome_en": "Ultimate Performance Car Guide",
     "nome_ptbr_referencia": null,
@@ -2758,12 +2757,12 @@
     "origem_catalogo": "mod",
     "mod": "damnlib",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-damnlib-magmusclevehiclesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Guide to American Muscle Cars",
     "nome_en": "Guide to American Muscle Cars",
     "nome_ptbr_referencia": null,
@@ -2774,12 +2773,12 @@
     "origem_catalogo": "mod",
     "mod": "damnlib",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-damnlib-magsportutilityvehiclesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Sport Utility Vehicles of the World",
     "nome_en": "Sport Utility Vehicles of the World",
     "nome_ptbr_referencia": null,
@@ -2790,12 +2789,12 @@
     "origem_catalogo": "mod",
     "mod": "damnlib",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-damnlib-magutilityvehiclesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Utility Vehicles Service Manual",
     "nome_en": "Utility Vehicles Service Manual",
     "nome_ptbr_referencia": null,
@@ -2806,12 +2805,12 @@
     "origem_catalogo": "mod",
     "mod": "damnlib",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-damnlib-magjdmvehiclesmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Cars of Japan",
     "nome_en": "Cars of Japan",
     "nome_ptbr_referencia": null,
@@ -2822,12 +2821,12 @@
     "origem_catalogo": "mod",
     "mod": "damnlib",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-ki5campers-87scampcampermagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Campers Service Manual",
     "nome_en": "Campers Service Manual",
     "nome_ptbr_referencia": null,
@@ -2838,12 +2837,12 @@
     "origem_catalogo": "mod",
     "mod": "KI5campers",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   },
   {
     "id": "mod-veiculo-ki5trailers-ki5trailersmagazine",
     "tipo": "revistas",
-    "nome_refugio": null,
     "nome": "Cargo/Utility Trailers Manual",
     "nome_en": "Cargo/Utility Trailers Manual",
     "nome_ptbr_referencia": null,
@@ -2854,6 +2853,7 @@
     "origem_catalogo": "mod",
     "mod": "KI5trailers",
     "categoria_mod": "veiculos",
-    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado"
+    "status_validacao": "script_e_icone_confirmados_servidor_nao_confirmado",
+    "nome_catalogo": null
   }
 ]

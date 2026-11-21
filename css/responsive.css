@@ -1,7 +1,7 @@
 @media(max-width:850px){.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.add-form{grid-template-columns:repeat(2,minmax(0,1fr))}.top-tag{display:none}.books-table th:first-child{width:210px}.books-table th.volume-head{width:65px}.books-table{min-width:560px}}@media(max-width:550px){.topbar-inner,.container{padding-left:12px;padding-right:12px}.topbar-inner{min-height:82px}.intro{align-items:start;flex-direction:column;gap:5px}.metric{padding:12px}.metric strong{font-size:1.4rem}.toolbar>button{flex:1}.add-form{grid-template-columns:1fr}.tab{padding:13px 15px;font-size:.85rem}}
 
 
-/* REFUGIO V3.9 - REVISTAS EM DUAS COLUNAS */
+/* ACERVO V3.9 - REVISTAS EM DUAS COLUNAS */
 
 /* Aplicar somente quando a aba Revistas estiver ativa */
 body:has(#tabMagazines.active) .items-table {

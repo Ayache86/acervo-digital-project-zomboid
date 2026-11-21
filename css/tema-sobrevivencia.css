@@ -1,0 +1,122 @@
+/* Acervo Digital — Project Zomboid | Identidade visual experimental
+   Branch: feat/identidade-visual | Iteracao 1
+   Apenas apresentacao. Nenhum ID, evento, dado ou regra de autenticacao e alterado.
+*/
+:root {
+  --bg:#10140f;
+  --panel:#1a2118;
+  --panel2:#242d20;
+  --border:#536448;
+  --neon:#b3c775;
+  --ink:#f0eada;
+  --muted:#b8bea8;
+  --good:#a7cc73;
+  --danger:#ffb6a1;
+  --survival-gold:#c8ad75;
+  --survival-rust:#994b3a;
+  font-family:'Segoe UI',Tahoma,Arial,sans-serif;
+}
+html {scrollbar-color:#5a6947 #111711}
+body {
+  background:
+    radial-gradient(ellipse at 80% -5%,rgba(151,126,66,.16),transparent 33%),
+    repeating-linear-gradient(115deg,transparent 0 110px,rgba(205,202,160,.018) 111px 112px),
+    linear-gradient(180deg,#171d15 0,#10140f 400px,#0b100d 100%);
+  color:var(--ink);
+}
+.topbar {
+  position:relative;
+  background:
+    linear-gradient(90deg,rgba(10,15,10,.96),rgba(19,26,16,.9) 52%,rgba(11,15,12,.96)),
+    repeating-linear-gradient(90deg,rgba(158,156,112,.1) 0 1px,transparent 1px 80px);
+  border-bottom:3px solid #6e784b;
+  box-shadow:0 8px 24px #0008,inset 0 -1px 0 #b7b38b44;
+}
+.topbar::after {
+  content:'';position:absolute;inset:auto 0 0;height:5px;pointer-events:none;
+  background:repeating-linear-gradient(90deg,transparent 0 28px,rgba(169,184,105,.24) 28px 29px);
+}
+.topbar-inner {max-width:1320px;min-height:124px;gap:20px}
+.logo-icon {
+  display:grid;place-items:center;width:68px;height:68px;padding:0;
+  color:#e6d7ab;border:2px solid #8b9567;border-radius:5px;
+  background:linear-gradient(145deg,#374331,#151b15);
+  box-shadow:inset 0 0 0 4px #151c17,0 3px 12px #0008;
+  transform:none;font-size:34px;font-weight:900;
+}
+.eyebrow {color:#c6b077;font-size:.7rem;letter-spacing:.16em}
+.topbar h1 {font-family:Impact,'Arial Narrow','Segoe UI',sans-serif;font-weight:800;letter-spacing:.035em;text-shadow:2px 3px 1px #0009;font-size:clamp(1.5rem,2.45vw,2.25rem)}
+.topbar h1 span {color:#a7bc78}
+.discord-auth-name {color:#f4edda}
+.discord-auth-avatar {border:2px solid #8ca661}
+.discord-auth-message {color:#adb99f}
+.discord-auth-btn {background:#52643d;border-color:#879d62;color:#fff6df;border-radius:4px}
+.discord-auth-btn:hover:not(:disabled){background:#677e4e}
+.discord-auth-signed-in .discord-auth-btn{background:#252d24;border-color:#69775b}
+.container {max-width:1320px;padding-top:30px}
+h2 {font-family:'Arial Narrow','Segoe UI',sans-serif;letter-spacing:.015em;font-weight:800}
+.intro {border-left:5px solid #8c9e5c;padding-left:16px;margin-bottom:20px}
+.intro h2 {font-size:clamp(1.35rem,2vw,1.7rem);text-transform:uppercase;color:#f3ecd9}
+.intro p {color:#bfc6b0}
+.status {color:#b7d589}
+.cloud-sync-banner {
+  border:1px solid #778c55;border-left:5px solid #a6c372;border-radius:4px;
+  background:linear-gradient(110deg,#252f1d,#171f17);
+  color:#d9e8ba;box-shadow:inset 0 1px 0 #ffffff0d;
+}
+.dashboard-v44 {gap:14px;margin-bottom:24px}
+.dashboard-main,.dashboard-category,.panel {
+  border:1px solid #4e6045;border-radius:5px;
+  background:
+    repeating-linear-gradient(124deg,transparent 0 44px,rgba(199,198,151,.012) 44px 45px),
+    linear-gradient(155deg,#222b20,#141b15);
+  box-shadow:inset 0 1px 0 #ffffff12,0 4px 14px #0005;
+}
+.dashboard-main {border-left:5px solid #a1b76a;min-height:120px}
+.dashboard-eyebrow {color:#d2c29a;font-size:.79rem;letter-spacing:.1em}
+.dashboard-main strong,.dashboard-category strong {color:#b9d77a;text-shadow:0 2px 1px #000a}
+.dashboard-main strong {font-size:clamp(2.3rem,4vw,3.1rem)}
+.dashboard-category {position:relative;min-height:142px;padding:18px 20px;border-top:3px solid #697d4b}
+.dashboard-category span {color:#e1d3aa;font-weight:800;text-transform:uppercase;letter-spacing:.03em}
+.dashboard-category small,.dashboard-fraction {color:#c5cbb5}
+.dashboard-track {height:11px;border:1px solid #56614e;background:repeating-linear-gradient(125deg,#101510 0 9px,#1c241b 9px 16px);border-radius:2px;box-shadow:inset 0 2px 3px #0009}
+.dashboard-main .dashboard-track {height:17px;flex-basis:44%}
+.dashboard-fill {background:linear-gradient(180deg,#d0df96,#819f50);border-radius:1px;box-shadow:inset 0 1px 0 #f8ffc355}
+.panel {margin-bottom:22px}
+.tabs {background:linear-gradient(180deg,#252e22,#1b231a);border-bottom:2px solid #718352}
+.tab {padding:17px 22px;color:#c7c8b4;border-bottom:3px solid transparent;letter-spacing:.01em}
+.tab:hover {background:#3a4630;color:#f2efd9}
+.tab.active {color:#172016;border-color:#d2dc9b;background:linear-gradient(180deg,#b7c982,#899f5b);text-shadow:0 1px #eef8ae33}
+.toolbar {background:#161e17;padding:16px}
+input,select {border-color:#586b4d;background:#101711;color:#eee9d6;border-radius:4px}
+input::placeholder {color:#9aa58c}
+input:focus-visible,select:focus-visible,button:focus-visible {outline-color:#d6dd96}
+.btn {background:#526340;border-color:#9aae72;border-radius:4px;color:#fff6de}
+.btn:hover {background:#708553}
+.btn.secondary {border-color:#738465;background:#273124;color:#e9e9d4}
+.btn.secondary:hover {background:#394832}
+.books-table th,.items-table th {background:#424d32;color:#f4e6bb;border-bottom-color:#a1a87d}
+.books-table td,.items-table td {border-bottom-color:#3c4739}
+.books-table tbody tr:nth-child(even),.items-table tbody tr:nth-child(even) {background:#222a21}
+.books-table tbody tr:hover,.items-table tbody tr:hover {background:#313e2b}
+.skill-sub,.item-sub,.item-detail,.help {color:#b8bea8}
+.mark {border-color:#67745d;background:#151d16;color:#bfc6b1;border-radius:3px}
+.mark:hover {border-color:#c6d88c}
+.mark[aria-pressed="true"] {background:#6d874b;color:#f6ffd7;border-color:#c2d889;box-shadow:inset 0 1px 0 #ffffff24}
+.item-icon-placeholder {background:#2b3529;border-color:#697a57;color:#bfd390}
+.mark-with-icon[aria-pressed="true"] .item-icon-placeholder {border-color:#b7d67e}
+.magazine-pagination {background:#232c21;border-color:#5a694d}
+.magazine-page-status {color:#dedfc6}
+.magazine-page-button,.magazine-group-button {background:#34432d;border-color:#728e59;color:#edeed6;border-radius:4px}
+.magazine-page-button:hover:not(:disabled),.magazine-group-button:hover {background:#526542;border-color:#c4d58c}
+.magazine-group-button.active {background:#819d56;color:#11190d;border-color:#c6d78f}
+.vhs-card-v47 {border-color:#58684c;border-radius:4px;background:linear-gradient(145deg,#293227,#171f19)}
+.wiki-link-v47 {color:#d2dba0}
+.wiki-link-v47:hover,.wiki-link-v47:focus-visible {color:#fff2c1}
+body:has(#tabMagazines.active) .items-table tbody tr {border-color:#58684c;border-radius:4px;background:#252d24}
+.add-panel {border-top:3px solid #879a62}
+.add-panel h2 {text-transform:uppercase}
+footer {color:#aab39f;border-top:1px solid #485440;padding-top:20px;margin-top:12px}
+@media(max-width:760px){.topbar-inner{min-height:100px;padding-top:16px;padding-bottom:16px}.logo-icon{width:54px;height:54px;font-size:28px}.topbar h1{font-size:1.4rem}.dashboard-main{min-height:0}.dashboard-category{min-height:0}.intro{padding-left:12px}.discord-auth{margin-top:8px}}
+@media(max-width:550px){.container{padding-top:20px}.topbar h1{font-size:1.15rem}.eyebrow{font-size:.6rem}.dashboard-main,.dashboard-category{padding:15px}.toolbar{padding:12px}.tab{padding:14px}.logo-icon{width:44px;height:44px;font-size:23px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important}}
