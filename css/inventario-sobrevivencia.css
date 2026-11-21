@@ -1,0 +1,109 @@
+/* ACERVO DIGITAL | Etapa 3.6: acabamento do inventario
+   Complementa o tema de sobrevivencia sem modificar IDs, eventos ou dados.
+*/
+:root{--inv-line:#627250;--inv-brass:#d0b77d;--inv-panel:#171f17;--inv-dark:#0e140f}
+
+/* Moldura do catalogo: metal pintado, rebites discretos */
+.panel[aria-label="Catálogo"]{
+  position:relative;overflow:hidden;
+  border:1px solid #6d7d59;
+  background:linear-gradient(152deg,#232c20 0%,#131b14 75%);
+  box-shadow:inset 0 1px rgba(241,240,186,.14),inset 0 0 0 4px rgba(16,23,16,.5),0 10px 25px #0007;
+}
+.panel[aria-label="Catálogo"]::before{
+  content:"";position:absolute;inset:7px 7px auto;height:1px;pointer-events:none;
+  background:linear-gradient(90deg,transparent,#8f9e6c66,transparent);
+}
+/* Guias do inventario */
+.panel[aria-label="Catálogo"] .tabs{
+  border-bottom:2px solid #899369;
+  background:linear-gradient(180deg,#303b2b,#1b251b);
+}
+.panel[aria-label="Catálogo"] .tab{
+  position:relative;min-height:48px;
+  text-transform:uppercase;letter-spacing:.035em;
+  font-family:Impact,'Arial Narrow','Segoe UI',sans-serif;
+  font-weight:700;font-size:.96rem;
+}
+.panel[aria-label="Catálogo"] .tab.active{
+  color:#161c0e;
+  background:linear-gradient(180deg,#c3d18e,#8fa660);
+  box-shadow:inset 0 1px #e5edbc80;
+}
+/* Area de busca e filtros: utilitaria e compacta */
+.panel[aria-label="Catálogo"] .toolbar{
+  position:relative;gap:9px;
+  background:repeating-linear-gradient(135deg,transparent 0 52px,#ffffff05 52px 53px),#151d15;
+  border-bottom:1px solid #495b42;
+}
+.panel[aria-label="Catálogo"] .toolbar input,
+.panel[aria-label="Catálogo"] .toolbar select{
+  background:#0d140f;border:1px solid #667456;color:#f2eddb;
+  box-shadow:inset 0 2px 4px #0006;
+}
+.panel[aria-label="Catálogo"] .toolbar input:focus-visible,
+.panel[aria-label="Catálogo"] .toolbar select:focus-visible,
+.panel[aria-label="Catálogo"] button:focus-visible,
+.panel[aria-label="Catálogo"] a:focus-visible{
+  outline:2px solid #d7e79c;outline-offset:2px;
+}
+/* Etiquetas de papel no cabecalho das tabelas */
+.panel[aria-label="Catálogo"] .books-table thead th,
+.panel[aria-label="Catálogo"] .items-table thead th{
+  color:#252718;background:linear-gradient(180deg,#ddc99d,#b9a577);
+  border-top:1px solid #f0e1b5;
+  border-bottom:2px solid #6a5d3d;
+  text-shadow:0 1px #f8f0d36b;
+  font-weight:800;letter-spacing:.055em;
+}
+.panel[aria-label="Catálogo"] .books-table tbody tr,
+.panel[aria-label="Catálogo"] .items-table tbody tr{
+  background:#172018;
+  transition:background-color .15s ease;
+}
+.panel[aria-label="Catálogo"] .books-table tbody tr:nth-child(even),
+.panel[aria-label="Catálogo"] .items-table tbody tr:nth-child(even){background:#202a20}
+.panel[aria-label="Catálogo"] .books-table tbody tr:hover,
+.panel[aria-label="Catálogo"] .items-table tbody tr:hover{background:#32402b}
+.panel[aria-label="Catálogo"] .books-table td,
+.panel[aria-label="Catálogo"] .items-table td{border-bottom:1px solid #4c5841}
+.panel[aria-label="Catálogo"] .skill-name,
+.panel[aria-label="Catálogo"] .item-title{color:#f2ecdb}
+/* Marcadores: botao pressionavel com reforco visual */
+.panel[aria-label="Catálogo"] .mark{
+  border:1px solid #83906f;background:linear-gradient(160deg,#283326,#101a13);
+  color:#e0e8cb;box-shadow:inset 0 1px #ffffff13,0 2px 4px #0005;
+  transition:border-color .15s ease,background .15s ease;
+}
+.panel[aria-label="Catálogo"] .mark:hover:not(:disabled){border-color:#d0e39d;background:#36492c}
+.panel[aria-label="Catálogo"] .mark[aria-pressed="true"]{
+  background:linear-gradient(155deg,#9fb86a,#627d42);border-color:#d6e69a;
+  color:#0c170b;box-shadow:inset 0 1px #eefac36b;
+}
+/* Cards de revistas/VHS e navegacao */
+.panel[aria-label="Catálogo"] .vhs-card-v47,
+.panel[aria-label="Catálogo"] .items-table tbody tr{
+  border-color:#647655;
+}
+.panel[aria-label="Catálogo"] .vhs-card-v47{
+  background:linear-gradient(145deg,#273324,#161f17);
+  box-shadow:inset 0 1px #ffffff0b,0 3px 8px #0004;
+}
+.panel[aria-label="Catálogo"] .magazine-pagination{
+  background:#202b1e;border-color:#6b7859;
+}
+.panel[aria-label="Catálogo"] .magazine-group-button.active,
+.panel[aria-label="Catálogo"] .magazine-page-button:hover:not(:disabled){
+  background:#9cb770;color:#10180e;border-color:#c7d898;
+}
+@media(max-width:680px){
+  .panel[aria-label="Catálogo"] .tab{font-size:.85rem;min-height:42px;padding:12px 13px}
+  .panel[aria-label="Catálogo"] .toolbar{padding:10px;gap:7px}
+  .panel[aria-label="Catálogo"] .books-table thead th,
+  .panel[aria-label="Catálogo"] .items-table thead th{font-size:.67rem;padding:10px 6px}
+}
+@media(prefers-reduced-motion:reduce){
+  .panel[aria-label="Catálogo"] .books-table tbody tr,
+  .panel[aria-label="Catálogo"] .items-table tbody tr,
+  .panel[aria-label="Catálogo"] .mark{transition:none}
+}

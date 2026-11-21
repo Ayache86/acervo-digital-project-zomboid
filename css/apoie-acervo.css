@@ -1,0 +1,36 @@
+/* Acervo Digital: apoio voluntario por Pix, sem conexao com o banco/Supabase */
+.apoie-acervo{margin:28px 0 20px;padding:0;border:1px solid #7a8d59;border-left:4px solid #b4c981;border-radius:9px;background:linear-gradient(145deg,#1d2a1c,#101911 80%);color:#e9e2c6;box-shadow:0 10px 25px #0003;scroll-margin-top:22px}
+.apoie-acervo-conteudo{padding:22px 24px;max-width:100%}
+.apoie-acervo-cabecalho{display:flex;align-items:center;gap:14px;margin-bottom:12px}
+.apoie-acervo-coracao{display:grid;place-items:center;min-width:52px;width:52px;height:52px;background:#35452b;color:#cde39a;border:1px solid #819260;border-radius:8px;font:700 30px Georgia,serif}
+.apoie-acervo h2{margin:0 0 4px;font-family:Segoe UI,Arial,sans-serif;font-size:1.15rem;line-height:1.35;letter-spacing:.04em;text-shadow:none}
+.apoie-acervo p{margin:7px 0 12px;line-height:1.55;color:#d1d6c3}
+.apoie-acervo-cabecalho p{margin:0;color:#afc393}
+.apoie-acervo-pix{display:flex;align-items:end;gap:12px;flex-wrap:wrap;margin:14px 0 10px}
+.apoie-acervo-chave{display:flex;flex:1 1 300px;min-width:0;flex-direction:column;gap:7px}
+.apoie-acervo-chave>span{font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:#e8dcad;font-weight:700}
+.apoie-acervo code{display:block;width:100%;overflow-wrap:anywhere;user-select:all;padding:11px;background:#0c140d;border:1px solid #627551;border-radius:6px;font:600 .95rem ui-monospace,Consolas,monospace;color:#e5efc2}
+.apoie-acervo-botao{font:700 .93rem Segoe UI,Arial,sans-serif;padding:12px 17px;cursor:pointer;border:1px solid #d1e1a3;border-radius:6px;background:#afc781;color:#16200d;white-space:nowrap}
+.apoie-acervo-botao:hover{background:#c4db97}
+.apoie-acervo-botao:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.apoie-acervo .apoie-acervo-feedback{color:#c9daaa;font-size:.87rem}
+.apoie-acervo .apoie-acervo-aviso{color:#aebca4;font-size:.8rem;margin-bottom:0}
+@media(max-width:540px){.apoie-acervo-conteudo{padding:17px 14px}.apoie-acervo-pix{flex-direction:column;align-items:stretch}.apoie-acervo-chave{flex-basis:auto}.apoie-acervo-botao{width:100%}.apoie-acervo h2{font-size:1rem}}
+
+/* Etapa 3.9: QR Code Pix real e copia e cola */
+.apoie-acervo-qrcode{display:grid;justify-items:center;gap:10px;text-align:center;padding:18px;margin:18px 0 14px;background:#162218;border:1px solid #526749;border-radius:8px}
+.apoie-acervo-qrcode img{display:block;width:min(100%,256px);height:auto;aspect-ratio:1/1;padding:10px;background:white;border-radius:9px;image-rendering:auto}
+.apoie-acervo-qrcode span{font-size:.88rem;color:#d7e1c6}
+.apoie-acervo-copiaecola{display:grid;gap:9px;margin-bottom:13px}
+.apoie-acervo-copiaecola label{font-weight:700;color:#e8dcad;font-size:.83rem}
+.apoie-acervo-copiaecola textarea{width:100%;box-sizing:border-box;resize:none;overflow:auto;padding:11px;background:#0c140d;border:1px solid #627551;border-radius:6px;font:500 .83rem/1.5 ui-monospace,Consolas,monospace;color:#e5efc2}
+.apoie-acervo-copiaecola button{justify-self:start}
+.apoie-acervo .apoie-acervo-privacidade{font-size:.8rem;color:#e7c98e}
+@media(max-width:540px){.apoie-acervo-copiaecola button{width:100%}}
+
+/* Etapa 3.11: atalho de apoio visivel no topo, sem interferir no Discord */
+.topbar .apoie-acervo-atalho{display:inline-flex;align-items:center;justify-content:center;min-height:38px;margin-top:9px;padding:8px 14px;border:1px solid #b9ce85;border-radius:7px;background:linear-gradient(180deg,#3d512f,#26371f);color:#f2edcf;font:700 .85rem/1.3 Segoe UI,Arial,sans-serif;letter-spacing:.015em;text-decoration:none;text-shadow:none;box-shadow:0 2px 7px #0005;white-space:normal}
+.topbar .apoie-acervo-atalho:hover{background:#4c6638;border-color:#dfedb2;color:#fff}
+.topbar .apoie-acervo-atalho:focus-visible{outline:3px solid #f3e6ad;outline-offset:3px}
+@media(max-width:550px){.topbar .apoie-acervo-atalho{min-height:40px;padding:8px 12px;font-size:.8rem;margin-top:7px}}
+@media(prefers-reduced-motion: no-preference){html:has(.apoie-acervo-atalho){scroll-behavior:smooth}}

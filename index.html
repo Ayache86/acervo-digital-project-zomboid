@@ -6,6 +6,7 @@
   <meta name="description" content="Acervo Digital de Project Zomboid: livros de habilidade, revistas e VHS vanilla e de mods, com controle individual de colecionaveis.">
   <meta name="theme-color" content="#151c15">
   <title>Acervo Digital — Project Zomboid</title>
+  <link rel="icon" type="image/png" sizes="256x256" href="assets/favicon-acervo.png">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/components.css">
@@ -20,9 +21,13 @@
   <link rel="stylesheet" href="css/cartoes-inventario.css">
   <link rel="stylesheet" href="css/progresso-vanilla-mods.css">
   <link rel="stylesheet" href="css/origem-dos-mods.css">
+  <link rel="stylesheet" href="css/inventario-sobrevivencia.css">
+  <link rel="stylesheet" href="css/marca-acervo.css">
+  <link rel="stylesheet" href="css/apoie-acervo.css">
+  <script src="js/apoie-acervo.js" defer></script>
 </head>
 <body>
-  <header class="topbar"><div class="topbar-inner"><div class="logo-icon" aria-hidden="true">▣</div><div><div class="eyebrow">PROJECT ZOMBOID • VANILLA + MODS</div><h1>ACERVO DIGITAL <span>/ PROJECT ZOMBOID</span></h1></div><div class="discord-auth" id="discordAuth" aria-label="Autenticação com Discord"><div class="discord-auth-main"><img id="discordAuthAvatar" class="discord-auth-avatar" alt="Avatar do jogador" hidden><span id="discordAuthName" class="discord-auth-name"></span><button id="discordAuthButton" class="discord-auth-btn" type="button">Entrar com Discord</button></div><span id="discordAuthMessage" class="discord-auth-message" aria-live="polite"></span></div></div></header>
+  <header class="topbar"><div class="topbar-inner"><img class="brand-mascot" src="assets/mascote-acervo-digital.webp" width="120" height="105" alt="Mascote original do Acervo Digital carregando livros, revistas e fitas VHS" decoding="async"><div><div class="eyebrow">PROJECT ZOMBOID • VANILLA + MODS</div><h1>ACERVO DIGITAL <span>/ PROJECT ZOMBOID</span></h1><a class="apoie-acervo-atalho" href="#apoie-acervo" aria-label="Ir à seção de doações Pix">💚 Apoie o Acervo</a></div><div class="discord-auth" id="discordAuth" aria-label="Autenticação com Discord"><div class="discord-auth-main"><img id="discordAuthAvatar" class="discord-auth-avatar" alt="Avatar do jogador" hidden><span id="discordAuthName" class="discord-auth-name"></span><button id="discordAuthButton" class="discord-auth-btn" type="button">Entrar com Discord</button></div><span id="discordAuthMessage" class="discord-auth-message" aria-live="polite"></span></div></div></header>
   <main class="container" id="app">
     <section class="intro"><div><h2>Controle de itens do depósito</h2><p>Marque os volumes encontrados. Sem login, os dados ficam neste navegador; com Discord, sua coleção é individual.</p></div><div class="status" id="saveStatus" aria-live="polite">Iniciando catálogo…</div></section>
     <section id="cloudSyncBanner" class="cloud-sync-banner" aria-live="polite" hidden><div id="cloudSyncStatus">Modo local</div><div class="cloud-sync-actions"><button id="cloudImportLocal" class="btn secondary" type="button">Importar coleção local para Discord</button><button id="cloudNewCollection" class="btn secondary" type="button">Começar uma coleção nova</button><button id="cloudRefresh" class="btn secondary" type="button">Atualizar dados da nuvem</button></div></section>
@@ -65,6 +70,28 @@
       <div id="errorArea" role="alert" hidden></div><div id="content"></div>
     </section>
     <section class="panel add-panel"><div><h2>Cadastrar item personalizado</h2><p>Use para registrar livros, revistas ou VHS ainda não cadastrados. O catálogo vanilla original não será alterado.</p></div><form id="addForm" class="add-form"><label>Tipo<select name="tipo" required><option value="livros">Livro</option><option value="revistas">Revista</option><option value="vhs">VHS</option></select></label><label>Nome do item<input name="nome" required maxlength="120" placeholder="Como aparece no servidor"></label><label>Nome em inglês (opcional)<input name="en" maxlength="120" placeholder="Nome original"></label><label>PT-BR vanilla (opcional)<input name="pt" maxlength="120" placeholder="Tradução vanilla"></label><button class="btn" type="submit">+ Adicionar item</button></form></section>
+    <section id="apoie-acervo" class="apoie-acervo" aria-labelledby="apoie-titulo">
+      <div class="apoie-acervo-conteudo">
+        <div class="apoie-acervo-cabecalho"><span class="apoie-acervo-coracao" aria-hidden="true">♥</span><div><h2 id="apoie-titulo">APOIE O ACERVO DIGITAL</h2><p>Ajude a manter o catálogo online e apoiar novas melhorias.</p></div></div>
+        <p>Este é um projeto independente e gratuito. Se ele é útil para você, considere contribuir com qualquer valor por Pix. Apoiar é totalmente opcional e não oferece vantagens no catálogo.</p>
+        <div class="apoie-acervo-qrcode" aria-label="Pagamento Pix por QR Code">
+          <img src="assets/pix-apoio-acervo-qr.png" alt="QR Code Pix de contribuição voluntária para o Acervo Digital" width="256" height="256" loading="lazy" decoding="async">
+          <span>Abra seu banco e escaneie o QR Code, ou copie o código de pagamento abaixo.</span>
+        </div>
+        <div class="apoie-acervo-copiaecola">
+          <label for="apoie-pix-codigo">Pix Copia e Cola (código de pagamento)</label>
+          <textarea id="apoie-pix-codigo" readonly rows="3" spellcheck="false" aria-label="Código Pix Copia e Cola">00020126880014br.gov.bcb.pix01368a8b4614-b1fe-4f58-a6af-547381ed3f0c0226APOIO AO ACERVO DIGITAL PZ5204000053039865802BR5924Bruno Americo Dos Santos6009Sao Paulo62070503***6304C018</textarea>
+          <button id="apoie-copiar-codigo" class="apoie-acervo-botao" type="button">Copiar Pix Copia e Cola</button>
+        </div>
+        <p class="apoie-acervo-privacidade">Este QR Code e o Pix Copia e Cola usam a <strong>mesma chave aleatória</strong>, sem incluir telefone ou e-mail. Confira o destinatário no aplicativo bancário antes de confirmar.</p>
+        <div class="apoie-acervo-pix">
+          <div class="apoie-acervo-chave"><span>Chave Pix aleatória</span><code id="apoie-chave" aria-label="Chave Pix aleatória">8a8b4614-b1fe-4f58-a6af-547381ed3f0c</code></div>
+          <button id="apoie-copiar" class="apoie-acervo-botao" type="button" aria-describedby="apoie-feedback">Copiar chave Pix</button>
+        </div>
+        <p id="apoie-feedback" class="apoie-acervo-feedback" role="status" aria-live="polite">No aplicativo do seu banco, selecione Pix → Transferir → Chave aleatória e cole a chave.</p>
+        <p class="apoie-acervo-aviso">Confira os dados do destinatário no aplicativo bancário antes de confirmar. A chave identifica o recebedor e o banco poderá mostrar seu nome e outros dados de confirmação. Não envie comprovantes pelo site.</p>
+      </div>
+    </section>
     <footer>ACERVO DIGITAL • PROJECT ZOMBOID — coleção local ou individual com Discord.</footer>
   </main>
 </body>
