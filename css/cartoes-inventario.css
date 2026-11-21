@@ -1,0 +1,60 @@
+/* Acervo Digital - Etapa 3.2: cartoes de progresso ilustrados.
+   Somente apresentacao. Nao altera IDs, progresso, filtros ou salvamento.
+   Progresso Vanilla x Mods: previsto para etapa posterior com JS/dados. */
+.dashboard-v44 .dashboard-categories { gap: 14px; }
+.dashboard-v44 .dashboard-category {
+  isolation: isolate;
+  padding: 21px 18px 18px 132px;
+  min-height: 174px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #66714c;
+  border-top: 3px solid #9da46d;
+  background:
+    radial-gradient(ellipse at 9% 66%, #8c8e5424, transparent 42%),
+    repeating-linear-gradient(115deg, transparent 0 64px, #d1cda006 65px 66px),
+    linear-gradient(145deg, #253021 0%, #111a13 100%);
+  box-shadow: inset 0 1px 0 #e5e5b31e, inset 0 -3px 0 #070e09aa, 0 6px 14px #0007;
+}
+.dashboard-v44 .dashboard-category::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 8px;
+  width: 118px; height: 118px;
+  transform: translateY(-50%);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: drop-shadow(3px 4px 2px #0007);
+  pointer-events: none;
+}
+.dashboard-v44 .dashboard-category:nth-child(1)::before { background-image: url('../assets/icone-livros.svg'); }
+.dashboard-v44 .dashboard-category:nth-child(2)::before { background-image: url('../assets/icone-revistas.svg'); }
+.dashboard-v44 .dashboard-category:nth-child(3)::before { background-image: url('../assets/icone-vhs.svg'); }
+.dashboard-v44 .dashboard-category::after {
+  content: '';
+  position: absolute; pointer-events: none;
+  inset: 5px; border: 1px solid #b6bb7940; border-radius: 2px;
+}
+.dashboard-v44 .dashboard-category > span,
+.dashboard-v44 .dashboard-category > strong,
+.dashboard-v44 .dashboard-category > small,
+.dashboard-v44 .dashboard-category > .dashboard-track { position: relative; z-index: 1; }
+.dashboard-v44 .dashboard-category > span { color:#f2e6c5; font-size: .76rem; line-height: 1.45; }
+.dashboard-v44 .dashboard-category > strong { font-size: 2rem; line-height: 1.15; margin-top: 9px; }
+.dashboard-v44 .dashboard-category > small { line-height: 1.4; }
+.dashboard-v44 .dashboard-category > .dashboard-track { margin-top: 14px; }
+@media (max-width: 1120px) and (min-width: 701px) {
+  .dashboard-v44 .dashboard-category { padding-left: 99px; min-height: 165px; }
+  .dashboard-v44 .dashboard-category::before { width: 90px; height: 90px; left: 4px; }
+  .dashboard-v44 .dashboard-category > span { font-size: .70rem; }
+}
+@media (max-width: 700px) {
+  .dashboard-v44 .dashboard-category { padding: 18px 16px 18px 126px; min-height: 156px; }
+  .dashboard-v44 .dashboard-category::before { width: 110px; height: 110px; left: 8px; }
+  .dashboard-v44 .dashboard-category > .dashboard-track { margin-top: 12px; }
+}
+@media (max-width: 360px) {
+  .dashboard-v44 .dashboard-category { padding-left: 101px; }
+  .dashboard-v44 .dashboard-category::before { width: 88px; height: 88px; left: 5px; }
+}

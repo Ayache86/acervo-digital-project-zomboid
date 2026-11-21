@@ -330,10 +330,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/art.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Art",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Art2",
@@ -346,10 +350,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/art.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Art",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Art3",
@@ -362,10 +370,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/art.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Art",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Art4",
@@ -378,10 +390,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/art.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Art",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Art5",
@@ -394,10 +410,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/art.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Art",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Base.BookCarpentry1",
@@ -890,10 +910,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/danca.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Dança",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Danca2",
@@ -906,10 +930,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/danca.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Dança",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Danca3",
@@ -922,10 +950,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/danca.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Dança",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Danca4",
@@ -938,10 +970,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/danca.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Dança",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Danca5",
@@ -954,10 +990,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/danca.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Dança",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Base.BookElectrician1",
@@ -1290,10 +1330,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/limpeza.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Limpeza",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Limpeza2",
@@ -1306,10 +1350,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/limpeza.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Limpeza",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Limpeza3",
@@ -1322,10 +1370,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/limpeza.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Limpeza",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Limpeza4",
@@ -1338,10 +1390,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/limpeza.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Limpeza",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Limpeza5",
@@ -1354,10 +1410,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/limpeza.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Limpeza",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Base.BookLongBlade1",
@@ -1610,10 +1670,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/musica.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Música",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Musica2",
@@ -1626,10 +1690,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/musica.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Música",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Musica3",
@@ -1642,10 +1710,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/musica.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Música",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Musica4",
@@ -1658,10 +1730,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/musica.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Música",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Acervo.Pendente.Musica5",
@@ -1674,10 +1750,14 @@
     "possui": false,
     "icone_local": "assets/icons/livros/musica.png",
     "wiki_url": null,
-    "observacoes": "Registro provisório de controle: existência deste volume, nome inglês, ID do jogo e correspondência vanilla ainda não confirmados.",
+    "observacoes": "Habilidade do mod Lifestyle: Hobbies. A correspondência do volume e o ID exato do item no jogo ainda precisam de confirmação.",
     "nome_catalogo": "Música",
     "nome_item_catalogo": null,
-    "status_nome_catalogo": "identificado_volumes_a_confirmar"
+    "status_nome_catalogo": "identificado_volumes_a_confirmar",
+    "origem_catalogo": "mod",
+    "mod": "LifestyleHobbies",
+    "mod_nome": "Lifestyle: Hobbies",
+    "mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858"
   },
   {
     "id": "Base.BookFishing1",

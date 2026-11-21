@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="css/cloud-sync.css">
 <link rel="stylesheet" href="css/tema-sobrevivencia.css">
   <link rel="stylesheet" href="css/ambientacao-sobrevivencia.css">
+  <link rel="stylesheet" href="css/cartoes-inventario.css">
+  <link rel="stylesheet" href="css/progresso-vanilla-mods.css">
+  <link rel="stylesheet" href="css/origem-dos-mods.css">
 </head>
 <body>
   <header class="topbar"><div class="topbar-inner"><div class="logo-icon" aria-hidden="true">▣</div><div><div class="eyebrow">PROJECT ZOMBOID • VANILLA + MODS</div><h1>ACERVO DIGITAL <span>/ PROJECT ZOMBOID</span></h1></div><div class="discord-auth" id="discordAuth" aria-label="Autenticação com Discord"><div class="discord-auth-main"><img id="discordAuthAvatar" class="discord-auth-avatar" alt="Avatar do jogador" hidden><span id="discordAuthName" class="discord-auth-name"></span><button id="discordAuthButton" class="discord-auth-btn" type="button">Entrar com Discord</button></div><span id="discordAuthMessage" class="discord-auth-message" aria-live="polite"></span></div></div></header>
@@ -24,11 +27,36 @@
     <section class="intro"><div><h2>Controle de itens do depósito</h2><p>Marque os volumes encontrados. Sem login, os dados ficam neste navegador; com Discord, sua coleção é individual.</p></div><div class="status" id="saveStatus" aria-live="polite">Iniciando catálogo…</div></section>
     <section id="cloudSyncBanner" class="cloud-sync-banner" aria-live="polite" hidden><div id="cloudSyncStatus">Modo local</div><div class="cloud-sync-actions"><button id="cloudImportLocal" class="btn secondary" type="button">Importar coleção local para Discord</button><button id="cloudNewCollection" class="btn secondary" type="button">Começar uma coleção nova</button><button id="cloudRefresh" class="btn secondary" type="button">Atualizar dados da nuvem</button></div></section>
     <section class="dashboard-v44" aria-label="Resumo da coleção">
-      <div class="dashboard-main"><div><span class="dashboard-eyebrow">PROGRESSO TOTAL DO ACERVO</span><strong id="overallPercent">–</strong><span id="overallFraction" class="dashboard-fraction">–</span></div><div class="dashboard-track" role="progressbar" aria-label="Progresso geral" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="overallBar" class="dashboard-fill"></div></div></div>
+      <div class="dashboard-main">
+        <div class="dashboard-overall-top">
+          <div class="dashboard-overall-caption"><span class="dashboard-eyebrow">PROGRESSO TOTAL DO ACERVO</span><strong id="overallPercent">–</strong><span id="overallFraction" class="dashboard-fraction">–</span></div>
+          <div class="dashboard-track" role="progressbar" aria-label="Progresso geral" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="overallBar" class="dashboard-fill"></div></div>
+        </div>
+      <div class="progress-split" aria-label="Progresso por origem">
+        <div class="progress-split-item"><div class="progress-split-heading"><span>VANILLA</span><small id="overallVanillaText">—</small></div><div class="dashboard-track progress-split-track" role="progressbar" aria-label="VANILLA" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="overallVanillaBar" class="dashboard-fill"></div></div></div>
+        <div class="progress-split-item"><div class="progress-split-heading"><span>MODS</span><small id="overallModsText">—</small></div><div class="dashboard-track progress-split-track" role="progressbar" aria-label="MODS" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="overallModsBar" class="dashboard-fill"></div></div></div>
+      </div>
+      <small class="progress-pending" id="overallPending" hidden></small>
+      </div>
       <div class="dashboard-categories">
-        <article class="dashboard-category"><span>▤ Livros de habilidade</span><strong id="booksPercent">–</strong><small id="booksFraction">–</small><div class="dashboard-track"><div id="booksBar" class="dashboard-fill"></div></div></article>
-        <article class="dashboard-category"><span>▦ Revistas</span><strong id="magazinesPercent">–</strong><small id="magazinesFraction">–</small><div class="dashboard-track"><div id="magazinesBar" class="dashboard-fill"></div></div></article>
-        <article class="dashboard-category"><span>▣ VHS</span><strong id="vhsPercent">–</strong><small id="vhsFraction">–</small><div class="dashboard-track"><div id="vhsBar" class="dashboard-fill"></div></div></article>
+        <article class="dashboard-category"><span>▤ Livros de habilidade</span><strong id="booksPercent">–</strong><small id="booksFraction">–</small><div class="dashboard-track" role="progressbar" aria-label="Progresso total: Livros de habilidade" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="booksBar" class="dashboard-fill"></div></div>
+      <div class="progress-split" aria-label="Progresso por origem">
+        <div class="progress-split-item"><div class="progress-split-heading"><span>VANILLA</span><small id="booksVanillaText">—</small></div><div class="dashboard-track progress-split-track" role="progressbar" aria-label="VANILLA" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="booksVanillaBar" class="dashboard-fill"></div></div></div>
+        <div class="progress-split-item"><div class="progress-split-heading"><span>MODS</span><small id="booksModsText">—</small></div><div class="dashboard-track progress-split-track" role="progressbar" aria-label="MODS" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="booksModsBar" class="dashboard-fill"></div></div></div>
+      </div>
+      <small class="progress-pending" id="booksPending" hidden></small></article>
+        <article class="dashboard-category"><span>▦ Revistas</span><strong id="magazinesPercent">–</strong><small id="magazinesFraction">–</small><div class="dashboard-track" role="progressbar" aria-label="Progresso total: Revistas" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="magazinesBar" class="dashboard-fill"></div></div>
+      <div class="progress-split" aria-label="Progresso por origem">
+        <div class="progress-split-item"><div class="progress-split-heading"><span>VANILLA</span><small id="magazinesVanillaText">—</small></div><div class="dashboard-track progress-split-track" role="progressbar" aria-label="VANILLA" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="magazinesVanillaBar" class="dashboard-fill"></div></div></div>
+        <div class="progress-split-item"><div class="progress-split-heading"><span>MODS</span><small id="magazinesModsText">—</small></div><div class="dashboard-track progress-split-track" role="progressbar" aria-label="MODS" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="magazinesModsBar" class="dashboard-fill"></div></div></div>
+      </div>
+      <small class="progress-pending" id="magazinesPending" hidden></small></article>
+        <article class="dashboard-category"><span>▣ VHS</span><strong id="vhsPercent">–</strong><small id="vhsFraction">–</small><div class="dashboard-track" role="progressbar" aria-label="Progresso total: VHS" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="vhsBar" class="dashboard-fill"></div></div>
+      <div class="progress-split" aria-label="Progresso por origem">
+        <div class="progress-split-item"><div class="progress-split-heading"><span>VANILLA</span><small id="vhsVanillaText">—</small></div><div class="dashboard-track progress-split-track" role="progressbar" aria-label="VANILLA" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="vhsVanillaBar" class="dashboard-fill"></div></div></div>
+        <div class="progress-split-item"><div class="progress-split-heading"><span>MODS</span><small id="vhsModsText">—</small></div><div class="dashboard-track progress-split-track" role="progressbar" aria-label="MODS" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="vhsModsBar" class="dashboard-fill"></div></div></div>
+      </div>
+      <small class="progress-pending" id="vhsPending" hidden></small></article>
       </div>
     </section>
     <section class="panel" aria-label="Catálogo">

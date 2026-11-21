@@ -1,0 +1,40 @@
+/* Acervo Digital — Etapa 3.3: progresso compacto Geral / Vanilla / Mods.
+   Adicionado por ultimo, sem apagar os estilos dos cartoes ilustrados. */
+.dashboard-v44 .dashboard-main { display:block; padding:17px 20px 14px; }
+.dashboard-overall-top { display:flex; align-items:center; justify-content:space-between; gap:18px; }
+.dashboard-overall-caption { display:flex; flex-wrap:wrap; align-items:baseline; gap:7px 14px; min-width:0; }
+.dashboard-overall-caption .dashboard-eyebrow { width:100%; }
+.dashboard-overall-top > .dashboard-track { flex:0 1 43%; min-width:130px; height:12px; }
+.dashboard-v44 .dashboard-category { min-height:0; padding-top:15px; padding-bottom:14px; }
+.dashboard-v44 .dashboard-category > strong { margin-top:4px; font-size:1.7rem; }
+.dashboard-v44 .dashboard-category > .dashboard-track { margin-top:9px; }
+.dashboard-v44 .dashboard-category > small:not(.progress-pending) { margin-bottom:5px; }
+.dashboard-v44 .progress-split { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:11px; padding-top:10px; border-top:1px solid rgba(183,195,133,.18); }
+.dashboard-v44 .progress-split-item { min-width:0; }
+.dashboard-v44 .progress-split-heading { display:flex; align-items:baseline; justify-content:space-between; gap:5px; margin-bottom:5px; }
+.dashboard-v44 .progress-split-heading > span { font-size:.65rem; line-height:1.1; font-weight:800; letter-spacing:.04em; color:#e0d3aa; }
+.dashboard-v44 .progress-split-heading > small { display:inline; font-size:.66rem; margin:0; color:#c3cdb0; white-space:nowrap; font-variant-numeric:tabular-nums; }
+.dashboard-v44 .progress-split-track { height:7px; margin:0; }
+.dashboard-v44 .progress-pending { display:block; margin-top:7px; margin-bottom:0; font-size:.64rem; line-height:1.25; color:#d3bb83; }
+.dashboard-v44 .progress-pending[hidden] { display:none!important; }
+/* As ilustracoes continuam no lado esquerdo dos cartoes. */
+.dashboard-v44 .dashboard-category .progress-split,
+.dashboard-v44 .dashboard-category .progress-pending { position:relative; z-index:1; }
+@media (max-width:1120px) and (min-width:701px) {
+ .dashboard-v44 .dashboard-category { padding-left:99px; }
+ .dashboard-v44 .progress-split { gap:7px; }
+ .dashboard-v44 .progress-split-heading { display:block; }
+ .dashboard-v44 .progress-split-heading > small { display:block; font-size:.64rem; margin-top:3px; }
+}
+@media (max-width:700px) {
+ .dashboard-v44 .dashboard-main { padding:16px; }
+ .dashboard-overall-top { display:block; }
+ .dashboard-overall-top > .dashboard-track { margin-top:12px; width:100%; }
+ .dashboard-v44 .dashboard-category { padding-top:15px; padding-bottom:15px; }
+ .dashboard-v44 .progress-split { gap:12px; }
+}
+@media (max-width:380px) {
+ .dashboard-v44 .dashboard-category { padding-left:104px; }
+ .dashboard-v44 .progress-split-heading { display:block; }
+ .dashboard-v44 .progress-split-heading > small { display:block; margin-top:3px; }
+}
