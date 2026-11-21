@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Acervo Digital de Project Zomboid: livros de habilidade, revistas e VHS vanilla e de mods, com controle individual de colecionaveis.">
+  <meta name="theme-color" content="#07121a">
+  <title>Acervo Digital — Project Zomboid</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/app.js" type="module"></script>
+  <script src="js/auth-discord.js" type="module"></script>
+  <link rel="stylesheet" href="css/auth-discord.css">
+  <link rel="stylesheet" href="css/dashboard-v44.css">
+  <link rel="stylesheet" href="css/cloud-sync.css">
+</head>
+<body>
+  <header class="topbar"><div class="topbar-inner"><div class="logo-icon" aria-hidden="true">▣</div><div><div class="eyebrow">PROJECT ZOMBOID • VANILLA + MODS</div><h1>ACERVO DIGITAL <span>/ PROJECT ZOMBOID</span></h1></div><div class="discord-auth" id="discordAuth" aria-label="Autenticação com Discord"><div class="discord-auth-main"><img id="discordAuthAvatar" class="discord-auth-avatar" alt="Avatar do jogador" hidden><span id="discordAuthName" class="discord-auth-name"></span><button id="discordAuthButton" class="discord-auth-btn" type="button">Entrar com Discord</button></div><span id="discordAuthMessage" class="discord-auth-message" aria-live="polite"></span></div></div></header>
+  <main class="container" id="app">
+    <section class="intro"><div><h2>Controle de itens do depósito</h2><p>Marque os volumes encontrados. Sem login, os dados ficam neste navegador; com Discord, sua coleção é individual.</p></div><div class="status" id="saveStatus" aria-live="polite">Iniciando catálogo…</div></section>
+    <section id="cloudSyncBanner" class="cloud-sync-banner" aria-live="polite" hidden><div id="cloudSyncStatus">Modo local</div><div class="cloud-sync-actions"><button id="cloudImportLocal" class="btn secondary" type="button">Importar coleção local para Discord</button><button id="cloudNewCollection" class="btn secondary" type="button">Começar uma coleção nova</button><button id="cloudRefresh" class="btn secondary" type="button">Atualizar dados da nuvem</button></div></section>
+    <section class="dashboard-v44" aria-label="Resumo da coleção">
+      <div class="dashboard-main"><div><span class="dashboard-eyebrow">PROGRESSO TOTAL DO ACERVO</span><strong id="overallPercent">–</strong><span id="overallFraction" class="dashboard-fraction">–</span></div><div class="dashboard-track" role="progressbar" aria-label="Progresso geral" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="overallBar" class="dashboard-fill"></div></div></div>
+      <div class="dashboard-categories">
+        <article class="dashboard-category"><span>▤ Livros de habilidade</span><strong id="booksPercent">–</strong><small id="booksFraction">–</small><div class="dashboard-track"><div id="booksBar" class="dashboard-fill"></div></div></article>
+        <article class="dashboard-category"><span>▦ Revistas</span><strong id="magazinesPercent">–</strong><small id="magazinesFraction">–</small><div class="dashboard-track"><div id="magazinesBar" class="dashboard-fill"></div></div></article>
+        <article class="dashboard-category"><span>▣ VHS</span><strong id="vhsPercent">–</strong><small id="vhsFraction">–</small><div class="dashboard-track"><div id="vhsBar" class="dashboard-fill"></div></div></article>
+      </div>
+    </section>
+    <section class="panel" aria-label="Catálogo">
+      <div class="tabs" role="tablist"><button class="tab active" id="tabBooks" type="button" aria-selected="true">▤ Livros de habilidade</button><button class="tab" id="tabMagazines" type="button" aria-selected="false">▦ Revistas</button><button class="tab" id="tabVhs" type="button" aria-selected="false">▣ VHS</button></div>
+      <div class="toolbar"><label class="search-label"><span class="sr-only">Pesquisar itens</span><input id="search" type="search" placeholder="Pesquisar nome em PT-BR, inglês ou ID…"></label><label class="sr-only" for="filter">Filtro de posse</label><select id="filter"><option value="all">Todos os itens</option><option value="missing">Somente faltantes</option><option value="owned">Somente encontrados</option></select><button class="btn secondary" id="exportBtn" type="button">Exportar backup</button><button class="btn secondary" id="importBtn" type="button">Importar backup</button><input id="fileInput" type="file" accept=".json,application/json" hidden></div>
+      <div id="errorArea" role="alert" hidden></div><div id="content"></div>
+    </section>
+    <section class="panel add-panel"><div><h2>Cadastrar item personalizado</h2><p>Use para registrar livros, revistas ou VHS ainda não cadastrados. O catálogo vanilla original não será alterado.</p></div><form id="addForm" class="add-form"><label>Tipo<select name="tipo" required><option value="livros">Livro</option><option value="revistas">Revista</option><option value="vhs">VHS</option></select></label><label>Nome no Refúgio<input name="nome" required maxlength="120" placeholder="Como aparece no servidor"></label><label>Nome em inglês (opcional)<input name="en" maxlength="120" placeholder="Nome original"></label><label>PT-BR vanilla (opcional)<input name="pt" maxlength="120" placeholder="Tradução vanilla"></label><button class="btn" type="submit">+ Adicionar item</button></form></section>
+    <footer>ACERVO DIGITAL • PROJECT ZOMBOID — coleção local ou individual com Discord.</footer>
+  </main>
+</body>
+</html>

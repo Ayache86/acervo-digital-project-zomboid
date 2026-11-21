@@ -1,0 +1,50 @@
+.status{font-size:.78rem;color:var(--good);text-align:right}.tabs{display:flex;border-bottom:1px solid var(--border);overflow:auto}.tab{border:0;border-bottom:3px solid transparent;background:none;color:var(--muted);padding:18px 22px;white-space:nowrap;font-weight:700}.tab:hover,.tab.active{color:var(--neon);background:#0c2936}.tab.active{border-bottom-color:var(--neon)}input,select{width:100%;border:1px solid var(--border);background:#071922;color:var(--ink);padding:11px 12px;border-radius:6px}input::placeholder{color:#819ca5}.btn{border:1px solid var(--neon);background:#0d5361;color:#fff;font-weight:700;border-radius:6px;padding:10px 14px;white-space:nowrap}.btn:hover{background:#166878}.btn.secondary{background:transparent;border-color:var(--border);color:var(--ink)}.btn.secondary:hover{background:var(--panel2)}#errorArea{padding:15px;color:var(--danger);background:#40231e}.table-scroller{overflow-x:auto}.books-table,.items-table{width:100%;border-collapse:collapse;table-layout:fixed}.books-table th,.items-table th{text-align:left;background:#153540;color:var(--neon);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;padding:13px 12px;border-bottom:1px solid var(--border)}.books-table td,.items-table td{padding:10px 12px;border-bottom:1px solid #1a3b48}.books-table tbody tr:nth-child(even),.items-table tbody tr:nth-child(even){background:#102732}.books-table tbody tr:hover,.items-table tbody tr:hover{background:#153744}.books-table th:first-child{width:39%}.books-table th.volume-head{width:12.2%;text-align:center}.books-table td.volume-cell{text-align:center;padding:8px 5px}.skill-name{display:block;font-weight:750}.skill-sub{font-size:.75rem;color:var(--muted);display:block}.mark{border:1px solid #46626a;width:42px;height:38px;display:inline-grid;place-items:center;color:#a6b9c1;background:#0a1b23;border-radius:7px;font-weight:800}.mark[aria-pressed="true"]{background:#12534d;border-color:var(--good);color:#adffe0}.mark:hover{border-color:var(--neon)}.mark:disabled{opacity:.2;cursor:not-allowed}.empty{padding:38px 20px;text-align:center;color:var(--muted)}.item-title{font-weight:700}.item-sub{color:var(--muted);font-size:.77rem;overflow-wrap:anywhere}.items-table th:nth-child(2){width:112px}.items-table th:nth-child(3){width:120px}.item-actions{display:flex;align-items:center;gap:8px}.delete{border:1px solid #784b4b;background:transparent;color:#ffd0ca;border-radius:5px;padding:5px 9px}.item-detail{font-size:.72rem;color:var(--muted);margin-top:4px}.help{padding:13px 16px;color:var(--muted);font-size:.82rem;border-top:1px solid var(--border)}
+
+/* V3.2: icones individuais locais, com fallback quando nao existe imagem */
+.skill-heading,.item-heading{display:flex;align-items:center;gap:9px;min-width:0}
+.item-icon{width:30px;height:34px;flex:0 0 30px;display:inline-grid;place-items:center;position:relative;vertical-align:middle}
+.item-icon-placeholder{width:27px;height:30px;border:1px solid #37636c;background:#12323e;color:#64cddd;border-radius:3px;display:grid;place-items:center;font-size:1rem}
+.item-icon-img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;image-rendering:pixelated}
+.item-icon.icon-loaded .item-icon-placeholder{visibility:hidden}
+.mark-with-icon{width:51px;height:52px;display:inline-flex;flex-direction:column;justify-content:center;align-items:center;gap:0;padding:3px;font-size:.85rem}
+.mark-with-icon .item-icon{width:27px;height:29px;flex:0 0 29px}
+.mark-with-icon .item-icon-placeholder{width:23px;height:25px;font-size:.8rem}
+.mark-with-icon[aria-pressed="true"] .item-icon-placeholder{border-color:#39bba4}
+@media (max-width:680px){.item-icon{width:24px;height:27px;flex-basis:24px}.mark-with-icon{width:43px;height:47px}.mark-with-icon .item-icon{width:23px;height:24px;flex-basis:24px}}
+
+/* V3.3 - imagem original junto ao nome, sem simbolo generico */
+.skill-heading .skill-icon-pending{display:none}
+.skill-heading .skill-icon-pending.icon-loaded{display:inline-grid;width:36px;height:39px;flex:0 0 36px}
+.skill-heading .skill-icon-pending .item-icon-img{object-fit:contain;image-rendering:pixelated}
+@media (max-width:680px){.skill-heading .skill-icon-pending.icon-loaded{width:29px;height:32px;flex-basis:29px}}
+
+/* V3.5: mostrar imagem com carregamento confirmado; nunca ocultar o contêiner de carregamento. */
+.skill-heading .skill-icon-pending{display:inline-grid;width:36px;height:39px;flex:0 0 36px}
+.skill-heading .skill-icon-absent{display:none}
+@media(max-width:680px){.skill-heading .skill-icon-pending{width:29px;height:32px;flex-basis:29px}}
+
+/* REFUGIO V3.9: paginacao das revistas */
+.magazine-pagination{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:13px 14px;background:#102732;border:1px solid #244653;border-radius:7px;margin:12px 0;}
+.magazine-page-status{color:#b8d6dd;font-size:.85rem;font-weight:600;}
+.magazine-page-button{border:1px solid #36879b;color:#e8fbff;background:#0d4353;border-radius:6px;padding:9px 14px;cursor:pointer;font-weight:700;}
+.magazine-page-button:hover:not(:disabled){background:#176078;}
+.magazine-page-button:disabled{opacity:.4;cursor:not-allowed;}
+@media(max-width:550px){.magazine-pagination{justify-content:center}.magazine-page-status{order:-1;width:100%;text-align:center;}}
+
+/* REFUGIO V4.0 - filtros de revistas */
+.magazine-groups{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0;}
+.magazine-group-button{cursor:pointer;border:1px solid #356477;border-radius:6px;background:#0a202b;color:#b8d6dd;padding:9px 12px;font-weight:650;}
+.magazine-group-button.active{background:#0c4052;color:#4fe5ed;border-color:#21cad6;}
+.magazine-group-button:hover{border-color:#21cad6;}
+
+
+
+/* REFUGIO V4.7 - 2 colunas x 6 linhas VHS; adaptação responsiva */
+.vhs-grid-v47{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:12px 10px;}
+.vhs-card-v47{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;min-width:0;min-height:98px;padding:12px;border:1px solid #285569;border-radius:8px;background:#0b2633;}
+.vhs-card-info-v47{min-width:0;flex:1;overflow-wrap:anywhere;}
+.vhs-card-actions-v47{display:flex;flex:0 0 60px;flex-direction:column;align-items:center;gap:5px;text-align:center;}
+.vhs-card-actions-v47 .item-detail{overflow-wrap:anywhere;}
+.wiki-link-v47{display:inline-block;margin-top:6px;color:#52dae8;font-size:.76rem;text-decoration:underline;text-underline-offset:2px;}
+.wiki-link-v47:hover,.wiki-link-v47:focus-visible{color:#fff;}
+@media(max-width:680px){.vhs-grid-v47{grid-template-columns:1fr;padding:8px;}.vhs-card-v47{min-height:auto;}}

@@ -1,0 +1,5 @@
+.cloud-sync-banner{margin:12px 0 18px;padding:14px 18px;border:1px solid #26788b;border-radius:10px;background:#0b2632;color:#d4f5fc;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.cloud-sync-banner[hidden]{display:none!important}
+.cloud-sync-actions{display:flex;gap:8px;flex-wrap:wrap}
+.cloud-sync-actions [hidden]{display:none!important}
+.cloud-sync-actions .btn{font-size:13px}

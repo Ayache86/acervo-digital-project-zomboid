@@ -1,0 +1,73 @@
+@media(max-width:850px){.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.add-form{grid-template-columns:repeat(2,minmax(0,1fr))}.top-tag{display:none}.books-table th:first-child{width:210px}.books-table th.volume-head{width:65px}.books-table{min-width:560px}}@media(max-width:550px){.topbar-inner,.container{padding-left:12px;padding-right:12px}.topbar-inner{min-height:82px}.intro{align-items:start;flex-direction:column;gap:5px}.metric{padding:12px}.metric strong{font-size:1.4rem}.toolbar>button{flex:1}.add-form{grid-template-columns:1fr}.tab{padding:13px 15px;font-size:.85rem}}
+
+
+/* REFUGIO V3.9 - REVISTAS EM DUAS COLUNAS */
+
+/* Aplicar somente quando a aba Revistas estiver ativa */
+body:has(#tabMagazines.active) .items-table {
+    display: block;
+    width: 100%;
+}
+
+/* Ocultar o cabecalho original da tabela */
+body:has(#tabMagazines.active) .items-table thead {
+    display: none;
+}
+
+/* Organizar as revistas em duas colunas */
+body:has(#tabMagazines.active) .items-table tbody {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    padding: 12px;
+}
+
+/* Cada revista funciona como um cartao */
+body:has(#tabMagazines.active) .items-table tbody tr {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 50px;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    border: 1px solid #245063;
+    border-radius: 8px;
+    background: #0d2633;
+    min-width: 0;
+}
+
+/* Texto e informacoes */
+body:has(#tabMagazines.active) .items-table tbody td {
+    border: 0;
+    padding: 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+/* Nome, traducao e icone */
+body:has(#tabMagazines.active) .items-table tbody td:first-child {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+/* Botao de marcacao */
+body:has(#tabMagazines.active) .items-table tbody td:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+}
+
+/* Informacao adicional */
+body:has(#tabMagazines.active) .items-table tbody td:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* Celulares e telas estreitas */
+@media (max-width: 700px) {
+    body:has(#tabMagazines.active) .items-table tbody {
+        grid-template-columns: 1fr;
+        padding: 8px;
+    }
+}
