@@ -74,7 +74,7 @@ function setTab(tab){active=tab;for(const [name,id] of Object.entries({livros:'t
 async function addItem(ev){
  ev.preventDefault();if(!writable())return;
  const data=new FormData(ev.currentTarget),tipo=String(data.get('tipo')),nome=String(data.get('nome')||'').trim();if(!nome)return;
- const item={id:'custom-'+Date.now()+'-'+Math.random().toString(36).slice(2,8),tipo,nome,nome_refugio:nome,nome_en:String(data.get('en')||'').trim()||null,nome_ptbr_vanilla:String(data.get('pt')||'').trim()||null,personalizado:true};
+ const item={id:'custom-'+Date.now()+'-'+Math.random().toString(36).slice(2,8),tipo,nome,nome_catalogo:nome,nome_en:String(data.get('en')||'').trim()||null,nome_ptbr_vanilla:String(data.get('pt')||'').trim()||null,personalizado:true};
  if(mode==='local'){localState.custom.push(item);localPersist();ev.currentTarget.reset();setTab(tipo);return}
  const who=userId;
  await action(async()=>{await addCustom(who,item);if(userId!==who)return;cloudState.custom.push(item);ev.currentTarget.reset();status('✓ Item personalizado salvo na nuvem');setTab(tipo)});

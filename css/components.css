@@ -23,7 +23,7 @@
 .skill-heading .skill-icon-absent{display:none}
 @media(max-width:680px){.skill-heading .skill-icon-pending{width:29px;height:32px;flex-basis:29px}}
 
-/* REFUGIO V3.9: paginacao das revistas */
+/* ACERVO V3.9: paginacao das revistas */
 .magazine-pagination{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:13px 14px;background:#102732;border:1px solid #244653;border-radius:7px;margin:12px 0;}
 .magazine-page-status{color:#b8d6dd;font-size:.85rem;font-weight:600;}
 .magazine-page-button{border:1px solid #36879b;color:#e8fbff;background:#0d4353;border-radius:6px;padding:9px 14px;cursor:pointer;font-weight:700;}
@@ -31,7 +31,7 @@
 .magazine-page-button:disabled{opacity:.4;cursor:not-allowed;}
 @media(max-width:550px){.magazine-pagination{justify-content:center}.magazine-page-status{order:-1;width:100%;text-align:center;}}
 
-/* REFUGIO V4.0 - filtros de revistas */
+/* ACERVO V4.0 - filtros de revistas */
 .magazine-groups{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0;}
 .magazine-group-button{cursor:pointer;border:1px solid #356477;border-radius:6px;background:#0a202b;color:#b8d6dd;padding:9px 12px;font-weight:650;}
 .magazine-group-button.active{background:#0c4052;color:#4fe5ed;border-color:#21cad6;}
@@ -39,7 +39,7 @@
 
 
 
-/* REFUGIO V4.7 - 2 colunas x 6 linhas VHS; adaptação responsiva */
+/* ACERVO V4.7 - 2 colunas x 6 linhas VHS; adaptação responsiva */
 .vhs-grid-v47{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:12px 10px;}
 .vhs-card-v47{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;min-width:0;min-height:98px;padding:12px;border:1px solid #285569;border-radius:8px;background:#0b2633;}
 .vhs-card-info-v47{min-width:0;flex:1;overflow-wrap:anywhere;}

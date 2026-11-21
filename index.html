@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Acervo Digital de Project Zomboid: livros de habilidade, revistas e VHS vanilla e de mods, com controle individual de colecionaveis.">
-  <meta name="theme-color" content="#07121a">
+  <meta name="theme-color" content="#151c15">
   <title>Acervo Digital — Project Zomboid</title>
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="css/auth-discord.css">
   <link rel="stylesheet" href="css/dashboard-v44.css">
   <link rel="stylesheet" href="css/cloud-sync.css">
+<link rel="stylesheet" href="css/tema-sobrevivencia.css">
+  <link rel="stylesheet" href="css/ambientacao-sobrevivencia.css">
 </head>
 <body>
   <header class="topbar"><div class="topbar-inner"><div class="logo-icon" aria-hidden="true">▣</div><div><div class="eyebrow">PROJECT ZOMBOID • VANILLA + MODS</div><h1>ACERVO DIGITAL <span>/ PROJECT ZOMBOID</span></h1></div><div class="discord-auth" id="discordAuth" aria-label="Autenticação com Discord"><div class="discord-auth-main"><img id="discordAuthAvatar" class="discord-auth-avatar" alt="Avatar do jogador" hidden><span id="discordAuthName" class="discord-auth-name"></span><button id="discordAuthButton" class="discord-auth-btn" type="button">Entrar com Discord</button></div><span id="discordAuthMessage" class="discord-auth-message" aria-live="polite"></span></div></div></header>
@@ -34,7 +36,7 @@
       <div class="toolbar"><label class="search-label"><span class="sr-only">Pesquisar itens</span><input id="search" type="search" placeholder="Pesquisar nome em PT-BR, inglês ou ID…"></label><label class="sr-only" for="filter">Filtro de posse</label><select id="filter"><option value="all">Todos os itens</option><option value="missing">Somente faltantes</option><option value="owned">Somente encontrados</option></select><button class="btn secondary" id="exportBtn" type="button">Exportar backup</button><button class="btn secondary" id="importBtn" type="button">Importar backup</button><input id="fileInput" type="file" accept=".json,application/json" hidden></div>
       <div id="errorArea" role="alert" hidden></div><div id="content"></div>
     </section>
-    <section class="panel add-panel"><div><h2>Cadastrar item personalizado</h2><p>Use para registrar livros, revistas ou VHS ainda não cadastrados. O catálogo vanilla original não será alterado.</p></div><form id="addForm" class="add-form"><label>Tipo<select name="tipo" required><option value="livros">Livro</option><option value="revistas">Revista</option><option value="vhs">VHS</option></select></label><label>Nome no Refúgio<input name="nome" required maxlength="120" placeholder="Como aparece no servidor"></label><label>Nome em inglês (opcional)<input name="en" maxlength="120" placeholder="Nome original"></label><label>PT-BR vanilla (opcional)<input name="pt" maxlength="120" placeholder="Tradução vanilla"></label><button class="btn" type="submit">+ Adicionar item</button></form></section>
+    <section class="panel add-panel"><div><h2>Cadastrar item personalizado</h2><p>Use para registrar livros, revistas ou VHS ainda não cadastrados. O catálogo vanilla original não será alterado.</p></div><form id="addForm" class="add-form"><label>Tipo<select name="tipo" required><option value="livros">Livro</option><option value="revistas">Revista</option><option value="vhs">VHS</option></select></label><label>Nome do item<input name="nome" required maxlength="120" placeholder="Como aparece no servidor"></label><label>Nome em inglês (opcional)<input name="en" maxlength="120" placeholder="Nome original"></label><label>PT-BR vanilla (opcional)<input name="pt" maxlength="120" placeholder="Tradução vanilla"></label><button class="btn" type="submit">+ Adicionar item</button></form></section>
     <footer>ACERVO DIGITAL • PROJECT ZOMBOID — coleção local ou individual com Discord.</footer>
   </main>
 </body>

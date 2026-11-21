@@ -1,0 +1,63 @@
+/* Acervo Digital - ambientação visual de sobrevivência, etapa 2.
+   Somente CSS: nao altera logica, marcas ou sincronizacao. */
+.topbar {
+  isolation: isolate;
+  background-color: #10160e;
+  background-image:
+    linear-gradient(90deg,rgba(7,12,8,.97) 0%,rgba(10,16,11,.92) 29%,rgba(13,18,12,.65) 53%,rgba(10,15,10,.22) 82%),
+    linear-gradient(0deg,rgba(9,13,10,.65),transparent 65%),
+    url('../assets/ambientacao-sobrevivencia.webp');
+  background-size: cover;
+  background-position: center 48%;
+  border-bottom-color: #85935d;
+}
+.topbar-inner {
+  min-height: 166px;
+  position: relative;
+  z-index: 1;
+}
+.topbar h1 {
+  max-width: 680px;
+  line-height: 1.12;
+  text-shadow: 0 2px 6px #000,2px 3px 1px #000;
+}
+.eyebrow {
+  color: #f0d398;
+  text-shadow: 0 2px 3px #000;
+}
+.logo-icon {
+  flex-shrink: 0;
+  background: linear-gradient(150deg,rgba(68,77,48,.94),rgba(19,26,18,.97));
+  box-shadow: inset 0 0 0 4px #111b13,0 0 0 1px #b3a574,0 4px 12px #000b;
+}
+.discord-auth {
+  margin-left: auto;
+  background: rgba(8,14,9,.64);
+  border: 1px solid rgba(163,179,115,.35);
+  border-radius: 5px;
+  padding: 10px 12px;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+.discord-auth-message {color: #e3dfc5}
+.topbar::after {
+  height: 6px;
+  background:
+    repeating-linear-gradient(90deg,transparent 0 30px,rgba(171,183,112,.4) 30px 31px),
+    linear-gradient(90deg,transparent,#ad9c63,transparent);
+}
+@media (max-width: 760px) {
+  .topbar-inner {min-height: 132px;}
+  .topbar {background-position: 62% center;}
+  .discord-auth {padding: 7px 8px;backdrop-filter: none;-webkit-backdrop-filter: none;}
+}
+@media (max-width: 550px) {
+  .topbar-inner {min-height: 116px;gap: 10px;}
+  .topbar {background-position: 66% center;
+    background-image:
+      linear-gradient(90deg,rgba(7,12,8,.96),rgba(10,15,10,.86) 70%,rgba(10,15,10,.65)),
+      url('../assets/ambientacao-sobrevivencia.webp');
+  }
+  .topbar h1 {font-size: 1.08rem;}
+  .discord-auth {max-width: 45%;}
+}

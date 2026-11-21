@@ -2,7 +2,7 @@
 import {getSupabase} from './cloud-client.js';
 async function db(){return getSupabase()}
 function check(error){if(error)throw new Error(error.message||String(error))}
-function asCustom(row){return {id:row.item_id,tipo:row.item_type,nome:row.name,nome_refugio:row.name,nome_en:row.name_en,nome_ptbr_vanilla:row.name_ptbr,personalizado:true}}
+function asCustom(row){return {id:row.item_id,tipo:row.item_type,nome:row.name,nome_catalogo:row.name,nome_en:row.name_en,nome_ptbr_vanilla:row.name_ptbr,personalizado:true}}
 function customRow(userId,item){return {user_id:userId,item_id:item.id,item_type:item.tipo,name:item.nome,name_en:item.nome_en||null,name_ptbr:item.nome_ptbr_vanilla||null}}
 export async function loadCollection(userId){
  const client=await db();
